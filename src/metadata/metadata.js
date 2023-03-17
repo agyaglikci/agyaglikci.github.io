@@ -26,14 +26,6 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
-    },
-    {
       title: 'Twelfth Night',
       period: '1600 – 1601',
       skills: ['comedy', 'love'],
@@ -50,7 +42,30 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
 `
     }
   ],
-  experience: [
+  papers: [
+    {
+      header: 'BlockHammer',
+      period: 'HPCA 2021',
+      skills: ['rowhammer', 'defense', 'throttling', 'memory', 'dram', 'memory controller', 'hardware'],
+      contents: `
+      A. Giray Yaglikci, Minesh Patel, Jeremie S. Kim, Roknoddin Azizi, Ataberk Olgun, Lois Orosa, Hasan Hassan, Jisung Park, Konstantinos Kanellopoulos, Taha Shahroodi, Saugata Ghose, and Onur Mutlu, "BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows," in Proceedings of the 27th International Symposium on High-Performance Computer Architecture (HPCA), Virtual, February-March 2021.
+
+      In this paper, we show that it is possible to efficiently and scalably prevent RowHammer bit-flips 
+      without knowledge of or modification to DRAM internals. To this end, we introduce BlockHammer, 
+      a low-cost, effective, and easy-to-adopt RowHammer mitigation mechanism that prevents all RowHammer 
+      bit-flips while overcoming the two key challenges: scalability with worsening RowHammer vulnerability 
+      and compatibility with commodity DRAM chips. BlockHammer selectively throttles memory accesses that 
+      may cause RowHammer bit-flips. To our knowledge, this is the first work that prevents RowHammer 
+      bit-flips efficiently and scalably without knowledge of or modifications to DRAM internals.
+      [<mark>Full paper</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer_preventing-DRAM-rowhammer-at-low-cost_hpca21.pdf)
+      [<mark>Full Talk Video</mark>](https://youtu.be/cWbW4qoDFds)
+      [<mark>Full Talk Slides (pptx)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pptx)
+      [<mark>Full Talk Slides (pdf)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pdf)
+      [<mark>Live Talk Video</mark>](https://youtu.be/40SXSKXW5kY)
+      [<mark>Live Talk Slides (pptx)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-short-talk.pptx)
+      [<mark>Live Talk Slides (pdf)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-short-talk.pdf)
+      `
+    },
     {
       header: 'Performance',
       skills: ['theater', 'play'],

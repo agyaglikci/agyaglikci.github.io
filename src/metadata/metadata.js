@@ -56,28 +56,14 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
         may cause RowHammer bit-flips. To our knowledge, this is the first work that prevents RowHammer 
         bit-flips efficiently and scalably without knowledge of or modifications to DRAM internals.`,
       urls:[
-        // {text: 'Full paper', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer_preventing-DRAM-rowhammer-at-low-cost_hpca21.pdf'},
-        // {text: 'Full Talk Video', url: 'https://youtu.be/cWbW4qoDFds'},
-        // {text: 'Full Talk Slides (pptx)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pptx'},
-        // {text: 'Full Talk Slides (pdf)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pdf'},
-        // {text: 'Live Talk Video', url:'https://youtu.be/40SXSKXW5kY'},
-        // {text: 'Live Talk Slides (pptx)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-live.pptx'},
+        {text: 'Full paper', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer_preventing-DRAM-rowhammer-at-low-cost_hpca21.pdf'},
+        {text: 'Full Talk Video', url: 'https://youtu.be/cWbW4qoDFds'},
+        {text: 'Full Talk Slides (pptx)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pptx'},
+        {text: 'Full Talk Slides (pdf)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pdf'},
+        {text: 'Live Talk Video', url:'https://youtu.be/40SXSKXW5kY'},
+        {text: 'Live Talk Slides (pptx)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-live.pptx'},
         {text: 'Live Talk Slides (pdf)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-live.pdf'}
       ]
-    },
-    {
-      header: 'Performance',
-      skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
     }
   ]
 };

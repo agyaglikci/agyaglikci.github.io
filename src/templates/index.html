@@ -105,14 +105,21 @@
 
     <h2 class="mb-4">Additional Experience</h2>
 
-    {{#each experience}}
+    {{#each papers}}
     <div class="mb-4">
         <h3 class="fs-4 fw-normal">{{ header }}</h3>
-
-        {{{markdown contents }}}
+        <!-- put a div with gray background -->
+        <span class="badge text-body border border-2">{{{markdown citation}}}}}</span>
+        
+        <p>{{{markdown summary }}}</p>
+        <div>
+            {{#each urls }}
+            <span class="text-body">{{markdown this }}</span>
+            {{/each}}
+        </div>
 
         <div>
-            {{#each skills }}
+            {{#each keywords }}
             <span class="badge text-body border border-1">{{ this }}</span>
             {{/each}}
         </div>

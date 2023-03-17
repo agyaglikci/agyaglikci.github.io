@@ -113,8 +113,8 @@
         
         <p>{{{ summary }}}</p>
         <div>
-            {{#each urls }}
-            <span class="text-body"><a href="{{ url }}"><i class="far"></i>{{ text }}</a></span>
+            {{#each sources }}
+            <span class="badge text-body border border-2">{{ text }}: {{#each urls}}<a href="{{ url }}"><i class="far fa-file-{{ type }}"></i></a> {{/each}}</span>
             {{/each}}
         </div>
 

@@ -114,7 +114,7 @@
         <p>{{{markdown summary }}}</p>
         <div>
             {{#each urls }}
-            <span class="text-body">{{markdown this }}</span>
+            <span class="text-body"><a href="{{ url }}">{{ text }}</a></span>
             {{/each}}
         </div>
 

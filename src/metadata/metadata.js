@@ -44,7 +44,7 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
   ],
   papers: [
     {
-      header: 'BlockHammer',
+      header: 'BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows',
       citation: 'A. Giray Yaglikci, Minesh Patel, Jeremie S. Kim, Roknoddin Azizi, Ataberk Olgun, Lois Orosa, Hasan Hassan, Jisung Park, Konstantinos Kanellopoulos, Taha Shahroodi, Saugata Ghose, and Onur Mutlu, "BlockHammer: Preventing RowHammer at Low Cost by Blacklisting Rapidly-Accessed DRAM Rows," in Proceedings of the 27th International Symposium on High-Performance Computer Architecture (HPCA), Virtual, February-March 2021.',
       keywords: ['rowhammer', 'defense', 'throttling', 'memory', 'dram', 'memory controller', 'hardware'],
       summary:`
@@ -56,13 +56,13 @@ In Verona, Italy, two families, the Montagues and the Capulets, are in the midst
         may cause RowHammer bit-flips. To our knowledge, this is the first work that prevents RowHammer 
         bit-flips efficiently and scalably without knowledge of or modifications to DRAM internals.`,
       urls:[
-        '[<mark>Full paper</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer_preventing-DRAM-rowhammer-at-low-cost_hpca21.pdf)',
-        '[<mark>Full Talk Video</mark>](https://youtu.be/cWbW4qoDFds)',
-        '[<mark>Full Talk Slides (pptx)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pptx)',
-        '[<mark>Full Talk Slides (pdf)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pdf)',
-        '[<mark>Live Talk Video</mark>](https://youtu.be/40SXSKXW5kY)',
-        '[<mark>Live Talk Slides (pptx)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-short-talk.pptx)',
-        '[<mark>Live Talk Slides (pdf)</mark>](https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-short-talk.pdf)',
+        // {text: 'Full paper', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer_preventing-DRAM-rowhammer-at-low-cost_hpca21.pdf'},
+        // {text: 'Full Talk Video', url: 'https://youtu.be/cWbW4qoDFds'},
+        // {text: 'Full Talk Slides (pptx)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pptx'},
+        // {text: 'Full Talk Slides (pdf)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-talk.pdf'},
+        // {text: 'Live Talk Video', url:'https://youtu.be/40SXSKXW5kY'},
+        // {text: 'Live Talk Slides (pptx)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-live.pptx'},
+        {text: 'Live Talk Slides (pdf)', url: 'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-preventing-rowhammer-at-low-cost-by-blacklisting-rapidly-accessed-dram-rows_hpca21-live.pdf'}
       ]
     },
     {

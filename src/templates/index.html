@@ -107,14 +107,19 @@
 
     {{#each papers}}
     <div class="mb-4">
-        <h3 class="fs-4 fw-normal">{{ header }}</h3>
-        <!-- put a div with gray background -->
-        <div class="text-body border border-2", style="font-size: small;">{{{ citation }}}</div>
+        <h3 class="fs-4 fw-normal">{{ header }} <span style="font-size: small;">in {{ venue }}</span></h3>
+        
+        <div class="text-body border border-2", style="font-size: small;">Full Reference: {{{ citation }}}</div>
         
         <p>{{{ summary }}}</p>
+
         <div>
             {{#each sources }}
-            <span class="badge text-body border border-2">{{ text }}: {{#each urls}}<a href="{{ url }}"><i class="far fa-file-{{ type }}"></i></a> {{/each}}</span>
+            <span class="badge text-body border border-2">{{ text }}:
+                {{#each urls }}
+                <a href="{{ url }}"><i class="fa-solid fa-{{ type }}"></i></a> 
+                {{/each}}
+            </span>
             {{/each}}
         </div>
 

@@ -286,7 +286,7 @@ module.exports = {
       length: "26 mins",
       venue: "ASP-DAC 2023",
       venuelong: "Asia and South Pacific Design Automation Conference",
-      video: 'https://www.youtube.com/embed/1kpDJkh_I8s',
+      video: '1kpDJkh_I8s',
       ppt: 'https://people.inf.ethz.ch/omutlu/pub/rowhammer_aspdac23-talk.pptx',
       pdf: 'https://people.inf.ethz.ch/omutlu/pub/rowhammer_aspdac23-talk.pdf'
     },
@@ -295,7 +295,7 @@ module.exports = {
       length: "20 mins",
       venue: "AMLD 2022",
       venuelong: "Applied Machine Learning Days",
-      video: 'https://www.youtube.com/embed/af2akuPkYHo',
+      video: 'af2akuPkYHo',
       ppt: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pptx',
       pdf: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pdf'
     }
@@ -495,7 +495,7 @@ Proceedings of the 48th International Symposium on Computer Architecture (ISCA),
           ]
         },
         {
-          text:'Full Talk (? mins)',
+          text:'Full Talk (17 mins)',
           urls: [
             {type: 'play', url:'https://www.youtube.com/watch?v=UOK0gDDk1i8'},
             {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/sysscale_multi-DVFS-energy-mobile-processors_isca20-talk.pptx'},

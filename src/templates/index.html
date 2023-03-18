@@ -17,34 +17,33 @@
 <div class="container page">
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <div class="row">
-            <div class="col-print-6 col-12 col-md-4 d-flex justify-content-between flex-column">
+            <div class="col-4 col-md-3 col-lg-2 d-none d-md-block"> 
+                <!--  offset-lg-1 ">  -->
+                <!-- align-md-self-center text-center -->
+                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
+            </div>
+            <!-- <div class="col-print-6 col-12 col-md-5 d-flex justify-content-between flex-column"> -->
+            <div class="col-print-12 col-12 col-md-9 d-flex justify-content-between flex-column">
                 <div>
                     <h1 class="mb-0">{{ name }}</h1>
                     <div class="fs-3">{{ title }}</div>
                 </div>
-                <div>
-                    <p>
-                        <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
-                    </p>
-                    <p>
-                        <span class="screen"><a href="{{ pdfFileName }}"><i class="far fa-file-pdf"></i>Download PDF version</a></span>
-                        <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
-                                                                                        class="text-nowrap"><i
-                            class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
-                    </p>
-                </div>
-            </div>
-            <div class="col-4 col-md-3 col-lg-2 offset-lg-1 d-none d-md-block align-md-self-center text-center">
-                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
-            </div>
-            <div class="col-print-6 col-12 col-md-5 offset-lg-1 col-lg-4">
+            <!-- </div>
+            
+            <div class="col-print-6 col-12 col-md-4 offset-lg-1 col-lg-4"> -->
                 <ul class="list-group list-group-flush">
                     {{#each facts}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
-                        <span class="text-nowrap">{{ @key }}</span>
+                        <!-- <span class="text-nowrap" style="font-size: medium;">{{ @key }}</span> -->
                         <span class="text-nowrap">{{{ this }}}</span>
                     </li>
                     {{/each}}
+                    <li class="list-group-item d-flex justify-content-between align-items-start">
+                            <span class="screen"><i class="fa-solid fa-file-pdf fact-icon"></i><a href="{{ pdfFileName }}"><span class="text-nowrap" style="font-size: medium;">Download</span></a></span>
+                            <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
+                                                                                            class="text-nowrap"><i
+                                class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -77,37 +76,19 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h2 class="mb-4">Professional Experience</h2>
-        {{#each positions}}
-        <div class="row d-block d-md-flex{{#unless @last}} mb-5{{/unless}}">
-            <div class="col-md-2 pt-1">
-                {{ period }}
-            </div>
-            <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">{{ title }}</h3>
-
-                <div>{{{markdown contents }}}</div>
-
-                <p>
-                    {{#each skills }}
-                    <span class="badge text-body border border-1">{{ this }}</span>
-                    {{/each}}
-                </p>
-            </div>
-        </div>
-        {{/each}}
-    </div>
-
-    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
-        <div>King Edward VI Grammar School in Stratford-upon-Avon [1571 - 1578]</div>
+        <div class="row d-block d-md-flex">
+        {{#each educations}}
+            <div class="col-2 col-md-2">{{ period }}</div><div class="col-9 col-md-9">{{ degree }}, {{ school }}</div>
+        {{/each}}
+        </div>
     </div>
 
-    <h2 class="mb-4">Selected Publications</h2>
-
-    {{#each papers}}
+    
+    <h2 class="mb-4">First-Author Publications</h2>
+    {{#each ownpapers}}
     <div class="mb-4">
-        <h3 class="fs-4 fw-normal">{{ header }} <span style="font-size: small;">in {{ venue }}</span></h3>
+        <h3 class="fs-4 fw-normal">{{ title }} <span style="font-size: medium;">in {{ venue }}</span></h3>
         
         <div class="text-body border border-2", style="font-size: small; padding: 7px;"><b>Full Reference:</b> {{{ citation }}}</div>
         
@@ -130,6 +111,72 @@
         </div> 
     </div>
     {{/each}}
+
+    
+    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="mb-4">Talks</h2>
+        <div class="row d-block d-md-flex">
+        {{#each talks}}
+            <div class="col-3 col-md-3 border-1">
+                <p class="fs-4 fw-normal">{{ venue }}<br><span style="font-size: small;">{{ venuelong }}</span></p>
+                <!-- youtube thumbnails -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="{{ video }}" allowfullscreen></iframe>
+                </div>
+                <!-- <iframe width="280" height="157" src="{{ video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                <p style="font-size: medium;">{{ title }} ({{ length }}) <br>
+                Slides: <a href="{{ ppt }}"><i class="fa-solid fa-file-powerpoint"></i></a> <a href="{{ pdf }}"><i class="fa-solid fa-file-pdf"></i></a> </p>
+            </div>
+            <div class="col-1 col-md-1"></div>
+        {{/each}}
+        </div>
+    </div>
+
+    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="mb-4">Employment History</h2>
+        {{#each positions}}
+        <div class="row d-block d-md-flex">
+            <!-- {{#unless @last}} mb-5{{/unless}} -->
+            <div class="col-md-2 pt-1">
+                {{ period }}
+            </div>
+            <div class="col-md-10">
+                <span class="fw-normal">{{ title }} - {{ organization }}</span>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+    <h2 class="mb-4">Other Publications</h2>
+    {{#each otherpapers}}
+    <div class="row d-block d-md-flex">
+        <div class="col-md-3 pt-1">
+            <p><b>{{ title }}</b> [{{ venue }}]<br>
+                {{#each keywords }}
+                <span class="badge text-body border border-1">{{ this }}</span>
+                {{/each}}
+            </p>
+        </div>
+        <div class="col-md-9">
+            <p class="text-body", style="font-size: medium; padding: 7px;">{{{ citation }}}
+                {{#each sources }}
+                <span class="badge text-body border border-2">{{ text }}:
+                    {{#each urls }}
+                    <a href="{{ url }}"><i class="fa-solid fa-{{ type }}"></i></a> 
+                    {{/each}}
+                </span>
+                {{/each}}
+            </p>
+             
+        </div>
+    </div>
+    {{/each}}
+
+    <hline>
+    <p>
+        <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
+    </p>
 </div>
+
 </body>
 </html>

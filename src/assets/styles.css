@@ -4,7 +4,7 @@
     --bs-body-color: #858585;
     --bs-body-color-rgb: 133, 133, 133;
     --light-color: #D9D9D9;
-    --bs-body-font-size: 1.2rem;
+    --bs-body-font-size: 1rem;
 }
 
 a {
@@ -14,6 +14,11 @@ a {
 
 h1, h2, h3, h4 {
     color: #000000;
+}
+
+.list-group-item {
+    border: none;
+    padding: 0;
 }
 
 @media print {
@@ -71,6 +76,10 @@ h1, h2, h3, h4 {
         display: none;
     }
 
+    h1{
+        font-size: 1.5em
+    }
+
     h2 {
         margin-top: 2rem;
         margin-bottom: 1rem;
@@ -91,6 +100,9 @@ h1, h2, h3, h4 {
 .fa {
     text-decoration: none !important;
     margin-right: 5px;
+}
+.fs-3 {
+    font-size: 1.5rem!important;
 }
 
 .badge {

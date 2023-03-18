@@ -38,49 +38,49 @@ module.exports = {
   ],
   positions: [
     {
-      period: 'Feb 18 - Present',
+      period: 'Feb 2018 - Present',
       title: 'Research and Teaching Assistant',
       organization: 'ETH Zürich',
       skills: ['tragedy', 'death', 'love'],
       contents: ``
     },
     {
-      period: 'Aug 17 - Feb 18',
+      period: 'Aug 2017 - Feb 2018',
       title: 'Research Intern',
       organization: 'Intel Labs Santa Clara             ',
       skills: ['tragedy', 'death', 'love'],
       contents: ``
     },
     {
-      period: 'Aug 16 - Aug 17',
+      period: 'Aug 2016 - Aug 2017',
       title: 'Research Intern',
       organization: 'Carnegie Mellon University (CMU)',
       skills: ['tragedy', 'death', 'love'],
       contents: ``
     },
     {
-      period: 'Aug 14 - Aug 16',
+      period: 'Aug 2014 - Aug 2016',
       title: 'Research Assistant',
       organization: 'University of Notre Dame Du Lac (ND)',
       skills: ['tragedy', 'death', 'love'],
       contents: ``
     },
     {
-      period: 'Jan 12 - Aug 14',
+      period: 'Jan 2012 - Aug 2014',
       title: 'Research and Teaching Assistant',
       organization: 'TOBB University of Economics and Technology (TOBB ETÜ)',
       skills: ['tragedy', 'death', 'love'],
       contents: ``
     },
     {
-      period: 'May 11 - Dec 11',
+      period: 'May 2011 - Dec 2011',
       title: 'Electrical Design Engineer',
       organization: 'Kasirga Information Systems',
       skills: ['tragedy', 'death', 'love'],
       contents: ``
     },
     {
-      period: 'May 10 - Apr 11',
+      period: 'May 2010 - Apr 2011',
       title: 'Electrical Design Engineer',
       organization: 'Yumruk Space and Defense Industry',
       skills: ['tragedy', 'death', 'love'],

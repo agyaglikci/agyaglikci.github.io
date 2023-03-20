@@ -302,19 +302,17 @@ module.exports = {
   ],
   services:[
     {
-      role: "Student Assistant to PC chairs",
-      venue: "DSN",
-      year: "2023"
+      year: "2023",
+      roles: [
+        {role: "Student Assistant to PC chairs", venue: "IEEE/IFIP DSN"},
+        {role: "Reviewer", venue: "IEEE/IFIP DSN"},
+      ],
     },
     {
-      role: "Reviewer",
-      venue: "DSN",
-      year: "2023" 
-    },
-    {
-      role: "Reviewer",
-      venue: "ACM TODAES",
-      year: "2022" 
+      year: "2022",
+      roles: [
+        {role: "Reviewer", venue: "ACM TODAES"},
+      ],
     }
   ],
   otherpapers: [

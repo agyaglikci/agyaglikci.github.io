@@ -142,11 +142,15 @@
         {{#each services}}
         <div class="row d-block d-md-flex">
             <!-- {{#unless @last}} mb-5{{/unless}} -->
-            <div class="col-md-3 col-lg-2 col-sm-12 col-xs-12">
+            <div class="col-md-2 col-lg-1 col-sm-2 col-xs-2">
                 {{year}}
             </div>
             <div class="col-md-9 col-lg-10 col-sm-12 col-xs-12">
-                <span class="fw-normal">{{ role }} for {{ venue }}</span>
+                <ul>
+                {{#each roles}}
+                <li class="fw-normal">{{ role }} for {{ venue }}</li>
+                {{/each}}
+                </ul>
             </div>
         </div>
         {{/each}}

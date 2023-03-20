@@ -135,6 +135,22 @@
     </div>
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h2 class="mb-4">Service</h2>
+        {{#each service}}
+        <div class="row d-block d-md-flex">
+            <!-- {{#unless @last}} mb-5{{/unless}} -->
+            <div class="col-md-3 col-lg-2 col-sm-12 col-xs-12">
+                {{year}}
+            </div>
+            <div class="col-md-9 col-lg-10 col-sm-12 col-xs-12">
+                <span class="fw-normal">{{ role }} for {{ venue }}</span>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+        
+    <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Employment</h2>
         {{#each positions}}
         <div class="row d-block d-md-flex">

@@ -23,7 +23,7 @@
                 <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
             </div>
             <!-- <div class="col-print-6 col-12 col-md-5 d-flex justify-content-between flex-column"> -->
-            <div class="col-print-12 col-12 col-md-9 d-flex justify-content-between flex-column">
+            <div class="col-print-8 col-12 col-md-9 d-flex justify-content-between flex-column">
                 <div>
                     <h1 class="mb-0">{{ name }}</h1>
                     <div class="fs-3">{{ title }}</div>
@@ -39,12 +39,15 @@
                     </li>
                     {{/each}}
                     <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <span class="screen"><i class="fa-solid fa-file-pdf fact-icon"></i><a href="{{ pdfFileName }}"><span class="text-nowrap" style="font-size: medium;">Download</span></a></span>
+                            <span class="screen"><i class="fa-solid fa-file-pdf fact-icon"></i><a href="{{ pdfFileName }}"><span class="text-nowrap" style="font-size: medium;">Printer Friendly</span></a></span>
                             <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
                                                                                             class="text-nowrap"><i
                                 class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
                     </li>
                 </ul>
+            </div>
+            <div class="col-print-2 ">
+                <img src="qrcode.png" class="rounded-circle img-fluid" alt="Personal photo">
             </div>
         </div>
     </div>
@@ -122,9 +125,9 @@
                 <!-- <div class="video-responsive" >
                     <iframe width="560" height="315" src="{{ video }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div> -->
-                <a href="https:://www.youtube.com/watch?v={{ video }}">
+                <span class="screen"><a href="https:://www.youtube.com/watch?v={{ video }}">
                     <img src="https://img.youtube.com/vi/{{ video }}/hqdefault.jpg" alt="YouTube" style="max-width:100%;">
-                </a> 
+                </a></span>
                 <p style="font-size: medium;">{{ title }}<br />
                     <i class="fa-solid fa-clock"></i> {{ length }} |
                     Video: <a href="https:://www.youtube.com/watch?v={{ video }}"><i class="fa-brands fa-youtube"></i></a> |
@@ -151,25 +154,43 @@
 
     <h2 class="mb-4">Other Publications</h2>
     {{#each otherpapers}}
-    <div class="row d-block d-md-flex">
-        <div class="col-md-3 pt-1">
-            <p><b>{{ title }}</b> [{{ venue }}]<br>
-                {{#each keywords }}
-                <span class="badge text-body border border-1">{{ this }}</span>
-                {{/each}}
-            </p>
-        </div>
-        <div class="col-md-9">
-            <p class="text-body", style="font-size: medium; padding: 7px;">{{{ citation }}}
-                {{#each sources }}
-                <span class="badge text-body border border-2">{{ text }}:
-                    {{#each urls }}
-                    <a href="{{ url }}"><i class="fa-solid fa-{{ type }}"></i></a> 
+    <div class="screen">
+        <div class="row d-block d-md-flex">
+            <div class="col-md-3 col-sm-12 col-xs-12">
+                <p><b>{{ title }}</b> [{{ venue }}]<br>
+                    {{#each keywords }}
+                    <span class="badge text-body border border-1">{{ this }}</span>
                     {{/each}}
-                </span>
-                {{/each}}
-            </p>
-             
+                </p>
+            </div>
+            <div class="col-md-9 col-sm-12 col-xs-12">
+                <p class="text-body", style="font-size: medium; padding: 7px;">{{{ citation }}}
+                    {{#each sources }}
+                    <span class="badge text-body border border-2">{{ text }}:
+                        {{#each urls }}
+                        <a href="{{ url }}"><i class="fa-solid fa-{{ type }}"></i></a> 
+                        {{/each}}
+                    </span>
+                    {{/each}}
+                </p>
+                 
+            </div>
+        </div>
+    </div>
+    <div class="print">
+        <div class="row d-block d-md-flex">
+            <div class="col-12">
+                <p class="text-body", style="font-size: small;">{{{ citation }}}
+                    {{#each sources }}
+                    <span class="badge text-body border border-2">{{ text }}:
+                        {{#each urls }}
+                        <a href="{{ url }}"><i class="fa-solid fa-{{ type }}"></i></a> 
+                        {{/each}}
+                    </span>
+                    {{/each}}
+                </p>
+                 
+            </div>
         </div>
     </div>
     {{/each}}

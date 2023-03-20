@@ -300,6 +300,23 @@ module.exports = {
       pdf: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pdf'
     }
   ],
+  services:[
+    {
+      role: "Student Assistant to PC chairs",
+      venue: "DSN",
+      year: "2023"
+    },
+    {
+      role: "Reviewer",
+      venue: "DSN",
+      year: "2023" 
+    },
+    {
+      role: "Reviewer",
+      venue: "ACM TODAES",
+      year: "2022" 
+    }
+  ],
   otherpapers: [
     {
       title: "RowHammer Survey",

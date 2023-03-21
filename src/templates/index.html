@@ -20,7 +20,7 @@
             <div class="col-4 col-md-3 col-lg-2 d-none d-md-block"> 
                 <!--  offset-lg-1 ">  -->
                 <!-- align-md-self-center text-center -->
-                <img src="photo.jpg" class="rounded-circle img-fluid" alt="Personal photo">
+                <img src="photo.jpg" class="rounded-circle img-fluid" alt="">
             </div>
             <!-- <div class="col-print-6 col-12 col-md-5 d-flex justify-content-between flex-column"> -->
             <div class="col-print-8 col-12 col-md-9 d-flex justify-content-between flex-column">
@@ -46,9 +46,9 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-print-2 ">
+            <!-- <div class="col-print-2 ">
                 <img src="qrcode.png" class="rounded-circle img-fluid" alt="Personal photo">
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -146,11 +146,12 @@
                 {{year}}
             </div>
             <div class="col-md-9 col-lg-10 col-sm-12 col-xs-12">
-                <ul>
+                <p>
                 {{#each roles}}
-                <li class="fw-normal">{{ role }} for {{ venue }}</li>
+                    <span class="fw-normal">{{ role }} for {{ venues }}</span><br>
                 {{/each}}
-                </ul>
+                </p>
+                
             </div>
         </div>
         {{/each}}

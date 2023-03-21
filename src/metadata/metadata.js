@@ -304,15 +304,52 @@ module.exports = {
     {
       year: "2023",
       roles: [
-        {role: "Student Assistant to PC chairs", venue: "IEEE/IFIP DSN"},
-        {role: "Reviewer", venue: "IEEE/IFIP DSN"},
+        {role: "Student Assistant to PC chairs", venues: "DSN"},
+        {role: "Reviewer", venues: "DSN"},
       ],
     },
     {
       year: "2022",
       roles: [
-        {role: "Reviewer", venue: "ACM TODAES"},
+        {role: "Reviewer", venues: "TODAES"},
+        {role: "Subreviewer", venues: "ASPLOS, DSN, ISCA, CAL, DRAMSec, TC, TCAD, and USENIX ATC"},
       ],
+    },
+    {
+      year: "2021",
+      roles: [
+        {role: "Subreviewer", venues: "HPCA, MICRO, TCAD, and USENIX ATC"},
+      ]
+    },
+    {
+      year: "2020",
+      roles: [
+        {role: "Subreviewer", venues: "DSN, ISCA, MICRO, CCS, ISCAS, ISPASS, NVMW, and TCSI"},
+      ]
+    },
+    {
+      year: "2019",
+      roles: [
+        {
+          role: "Subreviewer", 
+          venues: "DSN, ISCA, MICRO, MSST, TCAD, and TED",
+        }
+      ]
+    },
+    {
+      year: "2018",
+      roles: [
+        {
+          role: "Subreviewer", 
+          venues: "ASPLOS, HPCA, PACT, Nature Electronics, TC, and TVLSI",
+        }
+      ]
+    },
+    {
+      year: "2017",
+      roles: [
+        {role: "Subreviewer", venues: "DSN, MICRO, ISCA, and PLDI"},
+      ]
     }
   ],
   otherpapers: [

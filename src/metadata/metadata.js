@@ -298,6 +298,15 @@ module.exports = {
       video: 'af2akuPkYHo',
       ppt: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pptx',
       pdf: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pdf'
+    },
+    {
+      title: "A Deeper Look into RowHammer's Sensitivities",
+      length: "1 hour",
+      venue: "P&S DRAM Bender, ETH Zurich",
+      venuelong: "FPGA-based Exploration of DRAM and RowHammer, P&S Course at ETH Zurich",
+      video: '2db5zcIDnq4',
+      ppt: 'https://people.inf.ethz.ch/omutlu/pub/ADeeperLookIntoRowhammer_micro21-talk.pptx',
+      pdf: 'https://people.inf.ethz.ch/omutlu/pub/ADeeperLookIntoRowhammer_micro21-talk.pdf'
     }
   ],
   services:[

@@ -363,6 +363,80 @@ module.exports = {
   ],
   otherpapers: [
     {
+      title: "RowPress",
+      venue: "ISCA, 2023",
+      citation: `Haocong Luo, Ataberk Olgun, <u>A. Giray Yaglikci</u>, Yahya Can Tugrul, Steve Rhyner, M. Banu Cavlak, Joel Lindegger, Mohammad Sadrosadati, and Onur Mutlu,
+      <b>"RowPress: Amplifying Read Disturbance in Modern DRAM Chips"</b>
+      Proceedings of the 50th International Symposium on Computer Architecture (ISCA), Orlando, FL, USA, June 2023.`,
+      keywords: ['rowhammer', 'read disturbance', 'rowpress', 'dram', 'mitigation', 'attack'],
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://people.inf.ethz.ch/omutlu/pub/RowPress_isca23.pdf'}                    
+          ]
+        },
+        {
+          text:'Extended Version',
+          urls:[
+            {type: 'file-pdf', url:'https://arxiv.org/pdf/2306.17061.pdf'}
+          ]
+        },
+        {
+          text:'Lightning Talk (3 mins)',
+          urls: [
+            {type: 'play', url:'https://www.youtube.com/watch?v=R3VKbbbWMnY'},
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/RowPress_isca23-lightning-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/RowPress_isca23-lightning-talk.pdf'}
+          ]
+        },
+        {
+          text:'Full Talk (26 mins)',
+          urls: [
+            {type: 'play', url:'https://www.youtube.com/watch?v=PMM_XuLDFFo'},
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/RowPress_isca23-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/RowPress_isca23-talk.pdf'}
+          ]
+        },
+        {
+          text:'Source Code',
+          urls: [
+            {type: 'fa-brands fa-github', url:'https://github.com/CMU-SAFARI/RowPress'}
+          ]
+        }
+      ]
+    },
+    {
+      title: "HBM RowHammer",
+      venue: "DSN Disrupt, 2023",
+      citation: `Ataberk Olgun, Majd Osserian, <u>A. Giray Yağlıkçı<\u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez-Luna, and Onur Mutlu,
+      <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b>
+      Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.`,
+      keywords: ['rowhammer', 'read disturbance', 'hbm', 'dram', 'mitigation', 'attack'],
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23.pdf'}                    
+          ]
+        },
+        {
+          text:'Extended Version',
+          urls:[
+            {type: 'file-pdf', url:'https://arxiv.org/abs/2305.17918'}
+          ]
+        },
+        {
+          text:'Full Talk (26 mins)',
+          urls: [
+            {type: 'play', url:'https://www.youtube.com/watch?v=0OkYwavtrMc'},
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pdf'}
+          ]
+        }
+      ]
+    },
+    {
       title: "RowHammer Survey",
       venue: "ASP-DAC, 2023",
       citation: `Onur Mutlu, Ataberk Olgun, and <u>A. Giray Yağlıkçı</u>,

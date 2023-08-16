@@ -406,34 +406,34 @@ module.exports = {
         }
       ]
     },
-    {
-      title: "HBM RowHammer",
-      venue: "DSN Disrupt, 2023",
-      citation: 'Ataberk Olgun, Majd Osserian, <u>A. Giray Yağlıkçı<\u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez-Luna, and Onur Mutlu, <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b> Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.',
-      keywords: ['rowhammer', 'read disturbance', 'hbm', 'dram', 'mitigation', 'attack'],
-      sources:[
-        {
-          text:'Full Paper',
-          urls: [
-            {type: 'file-pdf', url:'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23.pdf'}                    
-          ]
-        },
-        {
-          text:'Extended Version',
-          urls:[
-            {type: 'file-pdf', url:'https://arxiv.org/abs/2305.17918'}
-          ]
-        },
-        {
-          text:'Full Talk (26 mins)',
-          urls: [
-            {type: 'play', url:'https://www.youtube.com/watch?v=0OkYwavtrMc'},
-            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pptx'},
-            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pdf'}
-          ]
-        }
-      ]
-    },
+    // {
+    //   title: "HBM RowHammer",
+    //   venue: "DSN Disrupt, 2023",
+    //   citation: 'Ataberk Olgun, Majd Osserian, <u>A. Giray Yağlıkçı<\u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez-Luna, and Onur Mutlu, <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b> Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.',
+    //   keywords: ['rowhammer', 'read disturbance', 'hbm', 'dram', 'mitigation', 'attack'],
+    //   sources:[
+    //     {
+    //       text:'Full Paper',
+    //       urls: [
+    //         {type: 'file-pdf', url:'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23.pdf'}                    
+    //       ]
+    //     },
+    //     {
+    //       text:'Extended Version',
+    //       urls:[
+    //         {type: 'file-pdf', url:'https://arxiv.org/abs/2305.17918'}
+    //       ]
+    //     },
+    //     {
+    //       text:'Full Talk (26 mins)',
+    //       urls: [
+    //         {type: 'play', url:'https://www.youtube.com/watch?v=0OkYwavtrMc'},
+    //         {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pptx'},
+    //         {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pdf'}
+    //       ]
+    //     }
+    //   ]
+    // },
     {
       title: "RowHammer Survey",
       venue: "ASP-DAC, 2023",

@@ -409,9 +409,7 @@ module.exports = {
     {
       title: "HBM RowHammer",
       venue: "DSN Disrupt, 2023",
-      citation: `Ataberk Olgun, Majd Osserian, <u>A. Giray Yağlıkçı<\u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez-Luna, and Onur Mutlu,
-      <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b>
-      Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.`,
+      citation: 'Ataberk Olgun, Majd Osserian, <u>A. Giray Yağlıkçı<\u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez-Luna, and Onur Mutlu, <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b> Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.',
       keywords: ['rowhammer', 'read disturbance', 'hbm', 'dram', 'mitigation', 'attack'],
       sources:[
         {

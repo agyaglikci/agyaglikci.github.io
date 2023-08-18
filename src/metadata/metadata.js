@@ -16,11 +16,11 @@ module.exports = {
     
   },
   skills: [
-    // ['Comedy', 100],
-    // ['Love', 100],
-    // ['Theater', 100],
-    // ['Tragedy', 100],
-    // ['Poetry', 100],
+    ['HPCA', 3],
+    ['MICRO', 3],
+    ['ISCA', 6],
+    ['DSN', 2],
+    ['SIGMETRICS', 2],
     // ['Erotic', 75],
     // ['Sonnets', 100],
     // ['Plays', 100],

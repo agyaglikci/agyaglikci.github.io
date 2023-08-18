@@ -18,7 +18,7 @@ module.exports = {
   skills: [
     ['HPCA', 3],
     ['MICRO', 3],
-    ['ISCA', 6],
+    ['ISCA', 7],
     ['DSN', 2],
     ['SIGMETRICS', 2],
     // ['Erotic', 75],

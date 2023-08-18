@@ -201,28 +201,30 @@
         </div>
     </div>
     {{/each}}
-</div>
 
-<div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-    <h3 class="h2 mb-4">Hall of Fame Stats</h3>
-    <div class="row align-items-center">
-        {{#each skills}}
-        <span class="badge text-body border border-2">
-            <a href="https://dblp.org/search/publ?q=author:Abdullah_Giray_Yaglikçi:%20{{ this.[0] }}">{{ this.[0] }}: {{ this.[1] }}<i class="fa-solid fa-<i class="fa-solid fa-database"></i>"></i></a> 
-        </span>
-<!--         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-            <small>{{ this.[0] }}: {{ this.[1] }}</small>
-        </div> -->
-<!--             <div class="col-print-1 col-3 col-md-2 col-lg-1">
-            <div class="skills">
-                <div class="skills-bar" style="width: {{ this.[1] }}"></div>
-            </div>
-        </div> -->
-        {{/each}}
-    </div>
-</div> 
-<p>
-    <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
-</p>
+    <div class="border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
+        <h3 class="h2 mb-4">Hall of Fame Stats</h3>
+        <div class="row align-items-center">
+            {{#each skills}}
+            <span class="badge text-body border border-2">
+                <a href="https://dblp.org/search/publ?q=author:Abdullah_Giray_Yaglikçi:%20{{ this.[0] }}">
+                    {{ this.[0] }}: {{ this.[1] }} <i class="fa-solid fa-square-up-right"></i>
+                </a> 
+            </span>
+    <!--         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
+                <small>{{ this.[0] }}: {{ this.[1] }}</small>
+            </div> -->
+    <!--             <div class="col-print-1 col-3 col-md-2 col-lg-1">
+                <div class="skills">
+                    <div class="skills-bar" style="width: {{ this.[1] }}"></div>
+                </div>
+            </div> -->
+            {{/each}}
+        </div>
+    </div> 
+    <p>
+        <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
+    </p>
+</div>
 </body>
 </html>

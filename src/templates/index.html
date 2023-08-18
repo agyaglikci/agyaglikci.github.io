@@ -161,7 +161,7 @@
         
     <h2 class="mb-4">Other Publications</h2>
     {{#each otherpapers}}
-    <div class="screen">
+    <div class="screen mb-1 pb-1">
         <div class="row d-block d-md-flex">
             <div class="col-md-3 col-sm-12 col-xs-12">
                 <p><b>{{ title }}</b> [{{ venue }}]<br>
@@ -202,25 +202,15 @@
     </div>
     {{/each}}
 
-    <div class="border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
-        <h3 class="h2 mb-4">Hall of Fame Stats</h3>
-        <div class="row align-items-center">
-            {{#each skills}}
-            <span class="badge text-body border border-2">
-                <a href="https://dblp.org/search/publ?q=author:Abdullah_Giray_Yaglikçi:%20{{ this.[0] }}">
-                    {{ this.[0] }}: {{ this.[1] }} <i class="fa-solid fa-square-up-right"></i>
-                </a> 
-            </span>
-    <!--         <div class="col-print-1 col-3 col-md-2 col-lg-1 text-right">
-                <small>{{ this.[0] }}: {{ this.[1] }}</small>
-            </div> -->
-    <!--             <div class="col-print-1 col-3 col-md-2 col-lg-1">
-                <div class="skills">
-                    <div class="skills-bar" style="width: {{ this.[1] }}"></div>
-                </div>
-            </div> -->
-            {{/each}}
-        </div>
+    <div class="border-top border-bottom border-1 border-print-0 border-dark mt-2 pt-3 mb-2 pb-3 pb-print-0 mb-print-1">
+        <span class="h2 mb-4">Hall of Fame Stats:</span>
+        {{#each skills}}
+        <span class="badge text-body border border-2">
+            <a href="https://dblp.org/search/publ?q=author:Abdullah_Giray_Yaglikçi:%20{{ this.[0] }}">
+                {{ this.[0] }}: {{ this.[1] }} <i class="fa-solid fa-square-up-right"></i>
+            </a> 
+        </span>
+        {{/each}}
     </div> 
     <p>
         <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>

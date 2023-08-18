@@ -401,7 +401,7 @@ module.exports = {
         {
           text:'Source Code',
           urls: [
-            {type: 'fa-brands fa-github', url:'https://github.com/CMU-SAFARI/RowPress'}
+            {type: 'gears', url:'https://github.com/CMU-SAFARI/RowPress'}
           ]
         }
       ]
@@ -413,7 +413,44 @@ module.exports = {
       <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b>
       Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.`,
       keywords: ['rowhammer', 'read disturbance', 'hbm', 'dram', 'high bandwidth', 'attack'],
-      sources:[]
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23.pdf'}                    
+          ]
+        },
+        {
+          text:'Full Talk (26 mins)',
+          urls: [
+            {type: 'play', url:'https://www.youtube.com/watch?v=0OkYwavtrMc'},
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/HBM_RowHammer_dsn-disrupt23-talk.pdf'}
+          ]
+        }
+      ]
+    },
+    {
+      title: "DRAM Bender",
+      venue: "TCAD, 2023",
+      citation: `Ataberk Olgun, Hasan Hassan, <u>A Giray Yaglikci</u>, Yahya Can Tuğrul, Lois Orosa, Haocong Luo, Minesh Patel, Oguz Ergin, Onur Mutlu,
+      <b>"DRAM Bender: An Extensible and Versatile FPGA-based Infrastructure to Easily Test State-of-the-art DRAM Chips"</b>
+      IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2023.`,
+      keywords: ['dram', 'testing', 'verification', 'infrastructure', 'retention', 'rowhammer', 'real chips'],
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url: 'https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/595592/2211.05838.pdf?sequence=2&isAllowed=y'}
+          ]
+        },
+        {
+          text:'Source Code',
+          urls: [
+            {type: 'gears', url: 'https://github.com/CMU-SAFARI/DRAM-Bender'}
+          ]
+        }
+      ]
     },
     // {
     //   title: "HBM RowHammer",

@@ -260,24 +260,6 @@ module.exports = {
           ]
         }
       ]
-    },
-    {
-      title: 'Security Analysis of the Silver Bullet Technique for RowHammer Prevention',
-      venue: 'arXiv 2021',
-      citation: '<u>A. Giray Yağlıkçı</u>, Jeremie S. Kim, Fabrice Devaux, and Onur Mutlu, <b>""Security Analysis of the Silver Bullet Technique for RowHammer Prevention","</b> arXiv, 2021.',
-      keywords: ['rowhammer', 'defense', 'refresh', 'memory', 'dram', 'on-die', 'hardware'],
-      awards: [],
-      summary:`
-      We mathematically demonstrate that Silver Bullet, when properly configured and implemented in a DRAM chip, can securely prevent RowHammer attacks. The demonstration focuses on the most representative implementation of Silver Bullet, the patent claiming many implementation possibilities not covered in this demonstration. Our study concludes that Silver Bullet is a promising RowHammer prevention mechanism that can be configured to operate securely against RowHammer attacks at various efficiency-area tradeoff points, supporting relatively small hammer count values (e.g., 1000) and Silver Bullet table sizes (e.g., 1.06KB).
-      `,
-      sources:[ 
-        {
-          text:'Full Paper',
-          urls: [
-            {type: 'file-pdf', url:'https://arxiv.org/abs/2106.07084.pdf'}
-          ]
-        },
-      ]
     }
   ],
   talks:[
@@ -810,5 +792,23 @@ Proceedings of the 48th International Symposium on Computer Architecture (ISCA),
         }
       ]
     },
+    {
+      title: 'Security Analysis of the Silver Bullet Technique for RowHammer Prevention',
+      venue: 'arXiv 2021',
+      citation: '<u>A. Giray Yağlıkçı</u>, Jeremie S. Kim, Fabrice Devaux, and Onur Mutlu, <b>""Security Analysis of the Silver Bullet Technique for RowHammer Prevention","</b> arXiv, 2021.',
+      keywords: ['rowhammer', 'defense', 'refresh', 'memory', 'dram', 'on-die', 'hardware'],
+      awards: [],
+      summary:`
+      We mathematically demonstrate that Silver Bullet, when properly configured and implemented in a DRAM chip, can securely prevent RowHammer attacks. The demonstration focuses on the most representative implementation of Silver Bullet, the patent claiming many implementation possibilities not covered in this demonstration. Our study concludes that Silver Bullet is a promising RowHammer prevention mechanism that can be configured to operate securely against RowHammer attacks at various efficiency-area tradeoff points, supporting relatively small hammer count values (e.g., 1000) and Silver Bullet table sizes (e.g., 1.06KB).
+      `,
+      sources:[ 
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://arxiv.org/abs/2106.07084.pdf'}
+          ]
+        },
+      ]
+    }
   ]
 };

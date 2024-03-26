@@ -90,9 +90,45 @@ module.exports = {
   ],
   ownpapers: [
     {
+      title: 'Spatial Variation-Aware Read Disturbance Defenses',
+      venue: 'HPCA 2024',
+      citation: `<u>A. Giray Yağlıkçı</u>, Yahya Can Tuğrul, Geraldo F. Oliveira, İsmail Emir Yüksel, Ataberk Olgun, Haocong Luo, Onur Mutlu
+      "Spatial Variation-Aware Read Disturbance Defenses: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions"
+      Proceedings of the 30th IEEE International Symposium on High-Performance Computer Architecture (HPCA-30), 2024.`,
+      keywords: ['rowhammer', 'defense', 'refresh', 'memory', 'dram', 'memory controller', 'subarray', 'parallelism', 'spatial', 'variation'],
+      awards: [],
+      summary:`
+      We tackle the performance overhead of existing read disturbance solutions by leveraging the spatial variation in read disturbance
+      across different memory locations in real DRAM chips. To do so, we 1) present the first rigorous real DRAM chip characterization 
+      study of spatial variation of read disturbance and 2) propose Svärd, a new mechanism that dynamically adapts the aggressiveness 
+      of existing solutions based on the row-level read disturbance profile. Our experimental characterization on 144 real DDR4 DRAM chips 
+      representing 10 chip designs demonstrates a large variation in read disturbance vulnerability across different memory locations: 
+      in the part of memory with the worst read disturbance vulnerability, 1) up to 2x the number of bitflips can occur and 2) bitflips 
+      can occur at an order of magnitude fewer accesses, compared to the memory locations with the least vulnerability to read disturbance. 
+      Svärd leverages this variation to reduce the overheads of five state-of-the-art read disturbance solutions, 
+      and thus significantly increases system performance.
+      `,
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://arxiv.org/pdf/2402.18652'}
+          ]
+        },
+        {
+          text:'Live Talk',
+          urls: [
+            {type: 'play', url:'https://www.youtube.com/watch?v='},
+            {type: 'file-powerpoint', url: 'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/giray_svard_hpca24.pptx'},
+            {type: 'file-pdf', url: 'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/giray_svard_hpca24.pdf'}
+          ]
+        },
+      ]
+    },
+    {
       title: 'HiRA: Hidden Row Activation for Reducing Refresh Latency of Off-the-Shelf DRAM Chips',
       venue: 'MICRO 2022',
-      citation: `<u>A. Giray Yaglıkcı</u>, Ataberk Olgun, Minesh Patel, Haocong Luo, Hasan Hassan, Lois Orosa, Oguz Ergin, and Onur Mutlu,
+      citation: `<u>A. Giray Yağlıkçı</u>, Ataberk Olgun, Minesh Patel, Haocong Luo, Hasan Hassan, Lois Orosa, Oguz Ergin, and Onur Mutlu,
       "HiRA: Hidden Row Activation for Reducing Refresh Latency of Off-the-Shelf DRAM Chips"
       Proceedings of the 55th International Symposium on Microarchitecture (MICRO), Chicago, IL, USA, October 2022.`,
       keywords: ['rowhammer', 'defense', 'refresh', 'memory', 'dram', 'memory controller', 'subarray', 'parallelism'],

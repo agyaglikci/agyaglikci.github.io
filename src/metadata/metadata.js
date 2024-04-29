@@ -30,7 +30,7 @@ module.exports = {
     // ['Influence', 100],
   ],
   educations: [
-    {school: 'ETH Zürich', degree: 'PhD in Information Tech. and Electrical Engineering', period: '2023 (expected)'},
+    {school: 'ETH Zürich', degree: 'PhD in Information Tech. and Electrical Engineering', period: '2024'},
     {school: 'University of Notre Dame Du Lac (ND)', degree: 'MSc in Computer Science', period: '2016'},
     {school: 'TOBB University of Economics and Technology', degree: 'MSc in Computer Engineering', period: '2014'},
     {school: 'TOBB University of Economics and Technology', degree: 'BSc in Electrical Engineering', period: '2011'},

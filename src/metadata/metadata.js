@@ -16,18 +16,11 @@ module.exports = {
     
   },
   skills: [
-    ['HPCA', 3],
+    ['HPCA', 6],
     ['MICRO', 3],
     ['ISCA', 7],
-    ['DSN', 2],
-    ['SIGMETRICS', 2],
-    // ['Erotic', 75],
-    // ['Sonnets', 100],
-    // ['Plays', 100],
-    // ['Writing', 100],
-    // ['Directing', 75],
-    // ['Literature', 100],
-    // ['Influence', 100],
+    ['DSN', 4],
+    ['SIGMETRICS', 2]
   ],
   educations: [
     {school: 'ETH Zürich', degree: 'PhD in Information Tech. and Electrical Engineering', period: '2024'},
@@ -307,6 +300,24 @@ module.exports = {
       video: '_QDNVDwGKdg',
       ppt: 'https://docs.google.com/presentation/d/1LvtFsCsyUdfuP7nxqbF9vNhCpHQrvRue/edit?usp=drive_link&ouid=111256638750781776326&rtpof=true&sd=true',
       pdf: 'https://drive.google.com/file/d/16OBiWJekXxb-lUP__-iuE6f_uCktS0yK/view?usp=drive_link'
+    },
+    {
+      title: "A Deeper Look into RowHammer's Characteristics in Real Modern DRAM Chips",
+      length: "1 hour 50 mins",
+      venue: "SAFARI Live Seminar",
+      venuelong: "SAFARI Live Seminar",
+      video: 'CRtm1es4n3o',
+      ppt: 'https://docs.google.com/presentation/d/1hrdZNtdjthzgwsYg7SWwjQwXCPTNZIiF',
+      pdf: 'https://drive.google.com/file/d/1HX0q0lEo1OEzaGr3OzYHdJwENYmDDF0D/view'
+    },
+    {
+      title: "Efficiently and Scalably Mitigating RowHammer in DRAM-Based Memory Systems",
+      length: "2 hours 4 mins",
+      venue: "SAFARI Live Seminar",
+      venuelong: "SAFARI Live Seminar",
+      video: 'YQwRYWpCsk0',
+      ppt: 'https://docs.google.com/presentation/d/1_WkqVWGJCVneuFRNlGJA-zPSgfUwcpKF',
+      pdf: 'https://drive.google.com/file/d/1_Fljr6WayfL_RG4iD7e0bjzmuIlKp-rW/view'
     },
     {
       title: "PhD Research Summary",

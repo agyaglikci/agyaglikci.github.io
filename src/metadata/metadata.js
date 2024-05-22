@@ -309,6 +309,13 @@ module.exports = {
       pdf: 'https://drive.google.com/file/d/16OBiWJekXxb-lUP__-iuE6f_uCktS0yK/view?usp=drive_link'
     },
     {
+      title: "PhD Research Summary",
+      length: "3 mins",
+      venue: "MICRO 2023",
+      venuelong: "International Symposium on Microarchitecture",
+      video: 'Vm9es6WGeI0'
+    },
+    {
       title: "Fundamentally Understanding and Solving RowHammer",
       length: "26 mins",
       venue: "ASP-DAC 2023",

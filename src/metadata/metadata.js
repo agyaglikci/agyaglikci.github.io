@@ -327,6 +327,15 @@ module.exports = {
       video: 'Vm9es6WGeI0'
     },
     {
+      title: "Memory Security, Reliability, Safetry Problems and Solutions",
+      length: "2 hours 50 mins",
+      venue: "Lecture in ETH",
+      venuelong: "Computer Architecture, ETH Zürich, Fall 2023",
+      video: 'PTDjgPUB8tQ',
+      ppt: 'https://safari.ethz.ch/architecture/fall2023/lib/exe/fetch.php?media=giray-comparch-fall2023-lecture6-afterlecture.pptx',
+      pdf: 'https://safari.ethz.ch/architecture/fall2023/lib/exe/fetch.php?media=giray-comparch-fall2023-lecture6-afterlecture.pdf'
+    },
+    {
       title: "Fundamentally Understanding and Solving RowHammer",
       length: "26 mins",
       venue: "ASP-DAC 2023",

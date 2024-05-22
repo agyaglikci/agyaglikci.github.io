@@ -300,6 +300,15 @@ module.exports = {
   ],
   talks:[
     {
+      title: "Blinded PhD Research Summary",
+      length: "23 mins",
+      venue: "HOST 2024",
+      venuelong: "Hardware Oriented Security and Trust",
+      video: '_QDNVDwGKdg',
+      ppt: 'https://docs.google.com/presentation/d/1LvtFsCsyUdfuP7nxqbF9vNhCpHQrvRue/edit?usp=drive_link&ouid=111256638750781776326&rtpof=true&sd=true',
+      pdf: 'https://drive.google.com/file/d/16OBiWJekXxb-lUP__-iuE6f_uCktS0yK/view?usp=drive_link'
+    },
+    {
       title: "Fundamentally Understanding and Solving RowHammer",
       length: "26 mins",
       venue: "ASP-DAC 2023",

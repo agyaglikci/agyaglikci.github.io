@@ -297,7 +297,7 @@ module.exports = {
       length: "1 hour",
       venue: "Lecture in ETH Zurich",
       venuelong: "Lecture in ETH Zurich",
-      video: 'LZOFTsxka2U',
+      video: 'LZOFTsxka2U&t=3661s',
       ppt: 'https://safari.ethz.ch/ddca/spring2024/lib/exe/fetch.php?media=giray-ddca-spring2024-lecture23b-beforelecture.pptx',
       pdf: 'https://safari.ethz.ch/ddca/spring2024/lib/exe/fetch.php?media=giray-ddca-spring2024-lecture23b-beforelecture.pdf'
     },

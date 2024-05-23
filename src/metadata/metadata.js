@@ -293,6 +293,15 @@ module.exports = {
   ],
   talks:[
     {
+      title: "DRAM Robustness and RowHammer Lecture (Second half of the lecture)",
+      length: "1 hour",
+      venue: "Lecture in ETH Zurich",
+      venuelong: "Lecture in ETH Zurich",
+      video: 'LZOFTsxka2U',
+      ppt: 'https://safari.ethz.ch/ddca/spring2024/lib/exe/fetch.php?media=giray-ddca-spring2024-lecture23b-beforelecture.pptx',
+      pdf: 'https://safari.ethz.ch/ddca/spring2024/lib/exe/fetch.php?media=giray-ddca-spring2024-lecture23b-beforelecture.pdf'
+    },
+    {
       title: "Blinded PhD Research Summary",
       length: "23 mins",
       venue: "HOST 2024",
@@ -329,7 +338,7 @@ module.exports = {
     {
       title: "Memory Security, Reliability, Safetry Problems and Solutions",
       length: "2 hours 50 mins",
-      venue: "Lecture in ETH",
+      venue: "Lecture in ETH Zurich",
       venuelong: "Computer Architecture, ETH Zürich, Fall 2023",
       video: 'PTDjgPUB8tQ',
       ppt: 'https://safari.ethz.ch/architecture/fall2023/lib/exe/fetch.php?media=giray-comparch-fall2023-lecture6-afterlecture.pptx',

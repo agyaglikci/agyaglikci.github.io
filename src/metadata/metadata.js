@@ -435,6 +435,34 @@ module.exports = {
   ],
   otherpapers: [
     {
+      title: "MIMDRAM",
+      venue: "HPCA, 2024",
+      citation: `Geraldo F. Oliveira, Ataberk Olgun, Abdullah Giray Yaglikçi, F. Nisa Bostanci, Juan Gómez-Luna, Saugata Ghose, Onur Mutlu,
+      <b>"MIMDRAM: An End-to-End Processing-Using-DRAM System for High-Throughput, Energy-Efficient and Programmer-Transparent Multiple-Instruction Multiple-Data Computing"</b>
+      Proceedings of the 28th International Symposium on High-Performance Computer Architecture (HPCA), Edinburgh, UK, March 2024.`,
+      keywords: ['pim', 'pum', 'mimd', 'dram'],
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://www.computer.org/csdl/proceedings-article/hpca/2024/931300a186/1VOACBfwFmU'}                    
+          ]
+        },
+        {
+          text:'Extended Version',
+          urls:[
+            {type: 'file-pdf', url:'https://arxiv.org/pdf/2402.19080'}
+          ]
+        },
+        {
+          text:'Source Code',
+          urls: [
+            {type: 'gears', url:'https://github.com/CMU-SAFARI/MIMDRAM'}
+          ]
+        }
+      ]
+    },
+    {
       title: "RowPress",
       venue: "ISCA, 2023",
       citation: `Haocong Luo, Ataberk Olgun, <u>A. Giray Yaglikci</u>, Yahya Can Tugrul, Steve Rhyner, M. Banu Cavlak, Joel Lindegger, Mohammad Sadrosadati, and Onur Mutlu,

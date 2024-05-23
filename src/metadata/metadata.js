@@ -297,6 +297,7 @@ module.exports = {
       length: "1 hour",
       venue: "Lecture in ETH Zurich",
       venuelong: "Lecture in ETH Zurich",
+      thumbnail: 'LZOFTsxka2U',
       video: 'LZOFTsxka2U&t=3661s',
       ppt: 'https://safari.ethz.ch/ddca/spring2024/lib/exe/fetch.php?media=giray-ddca-spring2024-lecture23b-beforelecture.pptx',
       pdf: 'https://safari.ethz.ch/ddca/spring2024/lib/exe/fetch.php?media=giray-ddca-spring2024-lecture23b-beforelecture.pdf'
@@ -306,6 +307,7 @@ module.exports = {
       length: "23 mins",
       venue: "HOST 2024",
       venuelong: "Hardware Oriented Security and Trust",
+      thumbnail: '_QDNVDwGKdg',
       video: '_QDNVDwGKdg',
       ppt: 'https://docs.google.com/presentation/d/1LvtFsCsyUdfuP7nxqbF9vNhCpHQrvRue/edit?usp=drive_link&ouid=111256638750781776326&rtpof=true&sd=true',
       pdf: 'https://drive.google.com/file/d/16OBiWJekXxb-lUP__-iuE6f_uCktS0yK/view?usp=drive_link'
@@ -315,6 +317,7 @@ module.exports = {
       length: "1 hour 50 mins",
       venue: "SAFARI Live Seminar",
       venuelong: "SAFARI Live Seminar",
+      thumbnail: 'CRtm1es4n3o',
       video: 'CRtm1es4n3o',
       ppt: 'https://docs.google.com/presentation/d/1hrdZNtdjthzgwsYg7SWwjQwXCPTNZIiF',
       pdf: 'https://drive.google.com/file/d/1HX0q0lEo1OEzaGr3OzYHdJwENYmDDF0D/view'
@@ -324,6 +327,7 @@ module.exports = {
       length: "2 hours 4 mins",
       venue: "SAFARI Live Seminar",
       venuelong: "SAFARI Live Seminar",
+      thumbnail: 'YQwRYWpCsk0',
       video: 'YQwRYWpCsk0',
       ppt: 'https://docs.google.com/presentation/d/1_WkqVWGJCVneuFRNlGJA-zPSgfUwcpKF',
       pdf: 'https://drive.google.com/file/d/1_Fljr6WayfL_RG4iD7e0bjzmuIlKp-rW/view'
@@ -333,6 +337,7 @@ module.exports = {
       length: "3 mins",
       venue: "MICRO 2023",
       venuelong: "International Symposium on Microarchitecture",
+      thumbnail: 'Vm9es6WGeI0',
       video: 'Vm9es6WGeI0'
     },
     {
@@ -340,6 +345,7 @@ module.exports = {
       length: "2 hours 50 mins",
       venue: "Lecture in ETH Zurich",
       venuelong: "Computer Architecture, ETH Zürich, Fall 2023",
+      thumbnail: 'PTDjgPUB8tQ',
       video: 'PTDjgPUB8tQ',
       ppt: 'https://safari.ethz.ch/architecture/fall2023/lib/exe/fetch.php?media=giray-comparch-fall2023-lecture6-afterlecture.pptx',
       pdf: 'https://safari.ethz.ch/architecture/fall2023/lib/exe/fetch.php?media=giray-comparch-fall2023-lecture6-afterlecture.pdf'
@@ -349,6 +355,7 @@ module.exports = {
       length: "26 mins",
       venue: "ASP-DAC 2023",
       venuelong: "Asia and South Pacific Design Automation Conference",
+      thumbnail: '1kpDJkh_I8s',
       video: '1kpDJkh_I8s',
       ppt: 'https://people.inf.ethz.ch/omutlu/pub/rowhammer_aspdac23-talk.pptx',
       pdf: 'https://people.inf.ethz.ch/omutlu/pub/rowhammer_aspdac23-talk.pdf'
@@ -358,6 +365,7 @@ module.exports = {
       length: "20 mins",
       venue: "AMLD 2022",
       venuelong: "Applied Machine Learning Days",
+      thumbnail: 'af2akuPkYHo',
       video: 'af2akuPkYHo',
       ppt: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pptx',
       pdf: 'http://n.ethz.ch/~yaglikca/talks/onur-RowHammer-MicrosoftSwissJRC-KickoffMeeting-March-29-2022.pdf'
@@ -367,6 +375,7 @@ module.exports = {
       length: "1 hour",
       venue: "P&S DRAM Bender, ETH Zurich",
       venuelong: "FPGA-based Exploration of DRAM and RowHammer, P&S Course at ETH Zurich",
+      thumbnail: '2db5zcIDnq4',
       video: '2db5zcIDnq4',
       ppt: 'https://people.inf.ethz.ch/omutlu/pub/ADeeperLookIntoRowhammer_micro21-talk.pptx',
       pdf: 'https://people.inf.ethz.ch/omutlu/pub/ADeeperLookIntoRowhammer_micro21-talk.pdf'

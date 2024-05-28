@@ -111,7 +111,7 @@ module.exports = {
         {
           text:'Live Talk',
           urls: [
-            {type: 'play', url:'https://www.youtube.com/watch?v='},
+            {type: 'play', url:'https://youtu.be/cOUyQBBWPew'},
             {type: 'file-powerpoint', url: 'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/giray_svard_hpca24.pptx'},
             {type: 'file-pdf', url: 'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/giray_svard_hpca24.pdf'}
           ]

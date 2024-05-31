@@ -23,10 +23,10 @@ module.exports = {
     ['SIGMETRICS', 2]
   ],
   educations: [
-    {school: 'ETH Zürich', degree: 'PhD in Information Tech. and Electrical Engineering', period: '2024'},
-    {school: 'University of Notre Dame Du Lac (ND)', degree: 'MSc in Computer Science', period: '2016'},
-    {school: 'TOBB University of Economics and Technology', degree: 'MSc in Computer Engineering', period: '2014'},
-    {school: 'TOBB University of Economics and Technology', degree: 'BSc in Electrical Engineering', period: '2011'},
+    {school: 'ETH Zürich', degree: 'PhD', period: '2024'},
+    {school: 'University of Notre Dame Du Lac (ND)', degree: 'MSc', period: '2016'},
+    {school: 'TOBB University of Economics and Technology', degree: 'MSc', period: '2014'},
+    {school: 'TOBB University of Economics and Technology', degree: 'BSc', period: '2011'},
     // {school: 'Eskisehir Fatih Science High School', degree: '', period: '2006'},
   ],
   positions: [

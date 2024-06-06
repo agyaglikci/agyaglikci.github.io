@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Abdullah Giray Yağlıkçı',
-  title: 'Postdoctoral Researcher at ETH Zurich',
+  title: 'Researcher at SAFARI Research Group in ETH Zurich',
   facts: {
     // 'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
     // 'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
@@ -31,7 +31,14 @@ module.exports = {
   ],
   positions: [
     {
-      period: 'Feb 2018 - Present',
+      period: 'Apr 2024 - Present',
+      title: 'Researcher',
+      organization: 'ETH Zürich',
+      skills: ['tragedy', 'death', 'love'],
+      contents: ``
+    },
+    {
+      period: 'Feb 2018 - Apr 2024',
       title: 'Research and Teaching Assistant',
       organization: 'ETH Zürich',
       skills: ['tragedy', 'death', 'love'],
@@ -447,9 +454,7 @@ module.exports = {
     {
       title: "MIMDRAM",
       venue: "HPCA, 2024",
-      citation: `Geraldo F. Oliveira, Ataberk Olgun, Abdullah Giray Yaglikçi, F. Nisa Bostanci, Juan Gómez-Luna, Saugata Ghose, Onur Mutlu,
-      <b>"MIMDRAM: An End-to-End Processing-Using-DRAM System for High-Throughput, Energy-Efficient and Programmer-Transparent Multiple-Instruction Multiple-Data Computing"</b>
-      Proceedings of the 28th International Symposium on High-Performance Computer Architecture (HPCA), Edinburgh, UK, March 2024.`,
+      citation: 'Geraldo F. Oliveira, Ataberk Olgun, Abdullah Giray Yaglikçi, F. Nisa Bostanci, Juan Gómez-Luna, Saugata Ghose, Onur Mutlu, <b>"MIMDRAM: An End-to-End Processing-Using-DRAM System for High-Throughput, Energy-Efficient and Programmer-Transparent Multiple-Instruction Multiple-Data Computing"</b> Proceedings of the 28th International Symposium on High-Performance Computer Architecture (HPCA), Edinburgh, UK, March 2024.',
       keywords: ['pim', 'pum', 'mimd', 'dram'],
       sources:[
         {
@@ -475,9 +480,7 @@ module.exports = {
     {
       title: "RowPress",
       venue: "ISCA, 2023",
-      citation: `Haocong Luo, Ataberk Olgun, <u>A. Giray Yaglikci</u>, Yahya Can Tugrul, Steve Rhyner, M. Banu Cavlak, Joel Lindegger, Mohammad Sadrosadati, and Onur Mutlu,
-      <b>"RowPress: Amplifying Read Disturbance in Modern DRAM Chips"</b>
-      Proceedings of the 50th International Symposium on Computer Architecture (ISCA), Orlando, FL, USA, June 2023.`,
+      citation: `Haocong Luo, Ataberk Olgun, <u>A. Giray Yaglikci</u>, Yahya Can Tugrul, Steve Rhyner, M. Banu Cavlak, Joel Lindegger, Mohammad Sadrosadati, and Onur Mutlu, <b>"RowPress: Amplifying Read Disturbance in Modern DRAM Chips"</b> Proceedings of the 50th International Symposium on Computer Architecture (ISCA), Orlando, FL, USA, June 2023.`,
       keywords: ['rowhammer', 'read disturbance', 'rowpress', 'dram', 'mitigation', 'attack'],
       sources:[
         {

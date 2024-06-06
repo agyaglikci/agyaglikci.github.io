@@ -301,7 +301,7 @@ module.exports = {
   talks:[
     {
       title: "Memory Latency, Data Retention, and Refresh",
-      length: "2 hrs",
+      length: "90 mins",
       venue: "Lecture in EFCL Summer School",
       venuelong: "Lecture in EFCL Summer School Track 4",
       thumbnail: "Z_DFlI3XlfA",

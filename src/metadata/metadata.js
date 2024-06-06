@@ -304,8 +304,8 @@ module.exports = {
       length: "2 hrs",
       venue: "Lecture in EFCL Summer School",
       venuelong: "Lecture in EFCL Summer School Track 4",
-      thumbnail: "wUcRr9c6abQ-7y8T",
-      video: "wUcRr9c6abQ-7y8T&t=1154",
+      thumbnail: "Z_DFlI3XlfA",
+      video: "Z_DFlI3XlfA&t=1154",
       ppt: "https://safari.ethz.ch/memory_systems/EFCL24/lib/exe/fetch.php?media=giray-efcl-2024-lecture3a-memory_latency_data_retention_and_refresh-afterlecture.pptx",
       pdf: "https://safari.ethz.ch/memory_systems/EFCL24/lib/exe/fetch.php?media=giray-efcl-2024-lecture3a-memory_latency_data_retention_and_refresh-afterlecture.pdf"
     },

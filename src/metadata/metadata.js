@@ -293,6 +293,16 @@ module.exports = {
   ],
   talks:[
     {
+      title: "Memory Latency, Data Retention, and Refresh",
+      length: "2 hrs",
+      venue: "Lecture in EFCL Summer School",
+      venuelong: "Lecture in EFCL Summer School Track 4",
+      thumbnail: "wUcRr9c6abQ-7y8T",
+      video: "wUcRr9c6abQ-7y8T&t=1154",
+      ppt: "https://safari.ethz.ch/memory_systems/EFCL24/lib/exe/fetch.php?media=giray-efcl-2024-lecture3a-memory_latency_data_retention_and_refresh-afterlecture.pptx",
+      pdf: "https://safari.ethz.ch/memory_systems/EFCL24/lib/exe/fetch.php?media=giray-efcl-2024-lecture3a-memory_latency_data_retention_and_refresh-afterlecture.pdf"
+    },
+    {
       title: "DRAM Robustness and RowHammer Lecture (Second half of the lecture)",
       length: "1 hour",
       venue: "Lecture in ETH Zurich",

@@ -112,7 +112,8 @@ module.exports = {
         {
           text:'Defense Slides',
           urls: [
-            {type: 'file-pdf', url: 'Enabling Efficient and Scalable DRAM Read Disturbance Mitigation via New Experimental Insights into Modern DRAM Chips'}
+            {type: 'file-powerpoint', url: 'https://safari.ethz.ch/wp-content/uploads/giray-phd-defense-slides-short.pptx'},
+            {type: 'file-pdf', url: 'https://safari.ethz.ch/wp-content/uploads/giray-phd-defense-slides-short.pdf'}
           ]
         },
       ]

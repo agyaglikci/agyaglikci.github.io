@@ -93,10 +93,10 @@ module.exports = {
       title: 'Enabling Efficient and Scalable DRAM Read Disturbance Mitigation via New Experimental Insights into Modern DRAM Chips',
       venue: 'PhD Thesis, ETH Zürich, 2024',
       citation: `<u>A. Giray Yağlıkçı</u>, "Enabling Efficient and Scalable DRAM Read Disturbance Mitigation via New Experimental Insights into Modern DRAM Chips,"
-      PhD Thesis, ETH Zürich, 2024.`,
+      ETH Zürich, 2024.`,
       keywords: ['rowhammer', 'defense', 'refresh', 'memory', 'dram', 'memory controller', 'subarray', 'parallelism', 'spatial', 'variation', 'temperature', 'access pattern', 'rowpress'],
       awards: [],
-      summary: `This PhD dissertation, based on five papers [1-5], demonstrates that we can mitigate DRAM read disturbance efficiently and scalably by 
+      summary: `This PhD dissertation, based on my PhD research, demonstrates that we can mitigate DRAM read disturbance efficiently and scalably by 
       1) building a detailed understanding of DRAM read disturbance,
       2) leveraging insights into modern DRAM chips and memory controllers,
       and 3) devising novel solutions that do not require proprietary knowledge of DRAM chip internals. 

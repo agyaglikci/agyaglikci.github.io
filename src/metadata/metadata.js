@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Abdullah Giray Yağlıkçı',
-  title: 'Researcher at SAFARI Research Group in ETH Zurich',
+  title: 'Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich',
   facts: {
     // 'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
     // 'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
@@ -17,7 +17,7 @@ module.exports = {
   },
   skills: [
     ['HPCA', 6],
-    ['MICRO', 3],
+    ['MICRO', 5],
     ['ISCA', 7],
     ['DSN', 4],
     ['SIGMETRICS', 2]

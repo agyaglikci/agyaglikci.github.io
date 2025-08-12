@@ -16,10 +16,10 @@ module.exports = {
     
   },
   skills: [
-    ['HPCA', 6],
+    ['HPCA', 10],
     ['MICRO', 5],
     ['ISCA', 7],
-    ['DSN', 4],
+    ['DSN', 5],
     ['SIGMETRICS', 2]
   ],
   educations: [
@@ -325,6 +325,11 @@ module.exports = {
           ]
         }
       ]
+    }
+  ],
+  cosupervisedpapers:[
+    {
+
     }
   ],
   talks:[

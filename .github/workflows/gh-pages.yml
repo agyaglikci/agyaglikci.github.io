@@ -1,14 +1,13 @@
 name: Publish to GH Pages
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
 permissions:
   contents: write
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -17,11 +16,21 @@ jobs:
         with:
           node-version: '18.x'
           cache: 'npm'
+          registry-url: 'https://registry.npmjs.org'
 
-      - name: Install dependencies
-        run: npm ci
+      # New: tame npm networking + retries (helps avoid 429)
+      - name: Configure npm for CI
+        run: |
+          npm config set fetch-retries 5
+          npm config set fetch-retry-mintimeout 20000
+          npm config set fetch-retry-maxtimeout 120000
+          npm config set registry https://registry.npmjs.org
+          npm config set fund false
+          npm config set audit false
 
-      # NEW: cache + install the browser Puppeteer expects
+      - name: Install dependencies (429-friendly)
+        run: npm ci --prefer-offline --no-audit --no-fund --network-concurrency=1
+
       - name: Cache Puppeteer browsers
         uses: actions/cache@v4
         with:

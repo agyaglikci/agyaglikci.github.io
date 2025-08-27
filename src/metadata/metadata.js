@@ -31,19 +31,17 @@ module.exports = {
     <a href="https://www.github.com/agyaglikci"><i class="fa-brands fa-github fact-icon"></i></a>
     <a href="https://www.youtube.com/channel/UCPqbz23zyVRXRFv-vtNyZGw"><i class="fa-brands fa-youtube fact-icon"></i></a>
     <a href="https://www.linkedin.com/in/agyaglikci/"><i class="fa-brands fa-linkedin fact-icon"></i></a>
-    <a href="https://twitter.com/agyaglikci"><i class="fa-brands fa-twitter fact-icon"></i></a>
-    <a href="join.html" style="display:inline-block;
-            padding:6px 14px;
-            border:1px solid #2a7ae2;
-            border-radius:6px;
-            text-decoration:none;
-            color:#2a7ae2;
-            font-weight:500;">
-    Work With Me
-  </a>`,
+    <a href="https://twitter.com/agyaglikci"><i class="fa-brands fa-twitter fact-icon"></i></a>`,
     'email': '<a href="mailto:giray.yaglikci@safari.ethz.ch"><i class="fa fa-envelope fact-icon"></i>giray.yaglikci@safari.ethz.ch</a>',
     'safari': '<a href="https://safari.ethz.ch"><i class="fa fa-up-right-from-square fact-icon"></i>https://safari.ethz.ch</a>',
-    'cispa': '<a href="https://cispa.de"><i class="fa fa-up-right-from-square fact-icon"></i>https://cispa.de</a>'
+    'cispa': '<a href="https://cispa.de"><i class="fa fa-up-right-from-square fact-icon"></i>https://cispa.de</a>',
+    'join': `<a href="join.html" style="display:inline-block;
+            padding:2px;
+            border:1px solid #e27a2a;
+            border-radius:1px;
+            text-decoration:none;
+            color:#e27a2a;
+            font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#e27a2a;"></i> Work With Me!</a>`
     // 'Phone': '<a href="tel:+1234567890"><i class="fa fa-phone fact-icon"></i>+1 (234) 567-890</a>',
     // 'ORCID': '<a href="https://orcid.org/0000-0002-1825-0097"><i class="fa-brands fa-orcid fact-icon"></i>0000-0002-1825-0097</a>',
     // 'ResearcherID': '<a href="http://www.researcherid.com/rid/A-1009-2009"><i class="fa fa-id-badge fact-icon"></i>A-1009-2009</a>',

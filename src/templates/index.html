@@ -26,7 +26,7 @@
             <div class="col-print-8 col-12 col-md-9 d-flex justify-content-between flex-column">
                 <div>
                     <h1 class="mb-0">{{ name }}</h1>
-                    <div class="fs-3">{{ title }}</div>
+                    <div class="fs-5">{{#each titles}}{{ this }}<br>{{/each}}</div>
                 </div>
             <!-- </div>
             
@@ -38,12 +38,6 @@
                         <span class="text-nowrap">{{{ this }}}</span>
                     </li>
                     {{/each}}
-                    {% comment %} <li class="list-group-item d-flex justify-content-between align-items-start">
-                            <span class="screen"><i class="fa-solid fa-file-pdf fact-icon"></i><a href="{{ pdfFileName }}"><span class="text-nowrap" style="font-size: medium;">Printer Friendly</span></a></span>
-                            <span class="print">Up-to-date version of CV is available at <a href="{{ baseUrl }}"
-                                                                                            class="text-nowrap"><i
-                                class="fab fa-github" aria-hidden="true"></i>{{ baseUrl }}</a></span>
-                    </li> {% endcomment %}
                 </ul>
             </div>
             <!-- <div class="col-print-2 ">

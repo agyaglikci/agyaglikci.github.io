@@ -88,7 +88,20 @@ module.exports = {
   ],
   positions: [
     {
-      period: 'Apr 2024 - Present',
+      period: 'Oct 2025 - ',
+      title: 'Tenure-Track Faculty',
+      organization: 'Helmholtz Center for Information Security (CISPA)',
+      contents: ``
+    },
+    {
+      period: 'Oct 2025 - ',
+      title: 'Postdoctoral Researcher and Lecturer',
+      organization: 'ETH Zürich',
+      skills: ['tragedy', 'death', 'love'],
+      contents: ``
+    },
+    {
+      period: 'Apr 2024 - Oct 2025',
       title: 'Researcher',
       organization: 'ETH Zürich',
       skills: ['tragedy', 'death', 'love'],

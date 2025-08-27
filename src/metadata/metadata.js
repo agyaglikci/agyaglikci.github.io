@@ -41,7 +41,7 @@ module.exports = {
             border-radius:1px;
             text-decoration:none;
             color:#e27a2a;
-            font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#e27a2a;"></i> Work With Me!</a>`
+            font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#e27a2a;"></i>Work With Me!</a>`
     // 'Phone': '<a href="tel:+1234567890"><i class="fa fa-phone fact-icon"></i>+1 (234) 567-890</a>',
     // 'ORCID': '<a href="https://orcid.org/0000-0002-1825-0097"><i class="fa-brands fa-orcid fact-icon"></i>0000-0002-1825-0097</a>',
     // 'ResearcherID': '<a href="http://www.researcherid.com/rid/A-1009-2009"><i class="fa fa-id-badge fact-icon"></i>A-1009-2009</a>',

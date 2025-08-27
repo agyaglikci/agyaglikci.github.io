@@ -329,7 +329,29 @@ module.exports = {
   ],
   cosupervisedpapers:[
     {
-
+      title: "Chronus: Understanding and Securing the Cutting-Edge Industry Solutions to DRAM Read Disturbance",
+      venue: "HPCA 2025",
+      citation: "Oğuzhan Canpolat, <u>A. Giray Yağlıkçı</u>, Geraldo Francisco de Oliveira, Ataberk Olgun, Nisa Bostanci, Ismail Emir Yuksel, Haocong Luo, Oğuz Ergin, and Onur Mutlu, <b>\"Chronus: Understanding and Securing the Cutting-Edge Industry Solutions to DRAM Read Disturbance,\"</b> in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
+      keywords: ['rowhammer', 'defense', 'prac', 'memory', 'dram', 'memory controller', 'hardware'],
+      awards: [
+        {name: "Officially artifact evaluated as available, functional, and reproduced."},
+        {name: "Invited Talk at Future of Memory Systems (FMS) 2025"}
+      ],
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://arxiv.org/pdf/2502.12650'}
+          ]
+        },
+        {
+          text:'Slides',
+          urls: [
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/Chronus_hpca25-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/Chronus_hpca25-talk.pdf'}
+          ]
+        },
+      ]
     }
   ],
   talks:[

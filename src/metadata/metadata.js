@@ -12,14 +12,37 @@ module.exports = {
       urls: [
         {type: 'play', url:'https://www.youtube.com/watch?v='},
         {type: 'file-powerpoint', url: 'talks/yaglikci-dsn_wc_carter_dissertation_award_presentation-2025_06_26.pptx'},
-        {type: 'file-pdf', url: 'talks/yaglikci-dsn_wc_carter_dissertation_award_presentation-2025_06_26.pdf'}]
+        {type: 'file-pdf', url: 'talks/yaglikci-dsn_wc_carter_dissertation_award_presentation-2025_06_26.pdf'},
+        {type: 'share-from-square', url:'https://safari.ethz.ch/abdullah-giray-yaglikci-awarded-the-dsn-2025-william-c-carter-award/'}
+      ]
     },
-    {award: 'ACM SIGARCH / IEEE CS TCCA Outstanding Dissertation Award', year: '2025', result: 'Honorable Mention'},
+    {
+      award: 'ACM SIGARCH / IEEE CS TCCA Outstanding Dissertation Award', 
+      year: '2025', 
+      result: 'Honorable Mention',
+      urls: [
+        {type: 'share-from-square', url:'https://safari.ethz.ch/acm-sigarch-tcca-outstanding-dissertation-award-honorable-mention-for-giray-yaglikci/'}
+      ]
+    },
     {award: 'ETH Medal', year: '2024', result: 'Nominated'},
     {award: 'HOST PhD Dissertation Competition', year: '2024', result: 'Finalist'},
-    {award: 'IEEE TTTC E. J. McCluskey Best Doctoral Thesis Award', year: '2025', result: 'Semi-finalist'},
-    {award: 'ACM PACT Student Research Competition', year: '2023', result: 'Finalist for an early version of Svärd (HPCA 2024)'},
-    {award: 'Intel Hardware Security Academic Award', year: '2022', result: 'Finalist for BlockHammer (HPCA 2021)'},
+    {award: 'IEEE TTTC E. J. McCluskey Best Doctoral Thesis Award', year: '2025', result: 'Semi-finalist', 
+      urls: [
+        {type: 'play', url:'https://www.youtube.com/watch?v='},
+        {type: 'file-powerpoint', url: 'talks/giray-defense_summary-vts-2025_04_29-short_backup.pptx'},
+        {type: 'file-pdf', url: 'talks/giray-defense_summary-vts-2025_04_29-short_backup.pdf'}
+      ]
+    },
+    {award: 'ACM PACT Student Research Competition', year: '2023', result: 'Recipient for an early version of Svärd (HPCA 2024)'},
+    {award: 'Intel Hardware Security Academic Award', year: '2022', result: 'Finalist for BlockHammer (HPCA 2021)', 
+      urls: [
+            {type:'play', url:'https://www.youtube.com/watch?v=5TymwquygZM'},
+            {type:'file-powerpoint', url:'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-IntelHardwareSecurityAcademicAwards-short-talk.pptx'},
+            {type:'file-pdf', url:'https://people.inf.ethz.ch/omutlu/pub/BlockHammer-IntelHardwareSecurityAcademicAwards-short-talk.pdf'}
+          ]
+    },
+    {award: 'ISCA Hall of Fame', year: '2025', result: 'Inducted with 8 papers', urls:[{type: 'share-from-square', url:'https://safari.ethz.ch/isca-hall-of-fame-2025/'}]},
+    {award: 'HPCA Hall of Fame', year: '2025', result: 'Inducted with 10 papers', urls:[{type: 'share-from-square', url:'https://safari.ethz.ch/olgun-and-yaglikci-inducted-into-the-hpca-hall-of-fame/'}]},
   ],
   facts: {
     // 'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',

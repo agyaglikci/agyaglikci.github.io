@@ -445,7 +445,7 @@ module.exports = {
         {
           text:'Slides',
           urls: [
-s           {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pptx'},
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pptx'},
             {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pdf'}
           ]
         },

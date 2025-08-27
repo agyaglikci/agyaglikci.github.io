@@ -42,10 +42,26 @@ jobs:
       #- name: Install Chromium for Puppeteer (r1022525)
         #run: npx puppeteer browsers install chromium@1022525
 
-      - name: Install Chromium for Puppeteer (r1022525)
-        run: npx --yes @puppeteer/browsers install chromium@1022525
+      - name: Install Chrome r1022525 for Puppeteer
+        run: npx --yes @puppeteer/browsers install chrome@1022525
+
+      - name: Point Puppeteer at the installed Chrome
+        shell: bash
+        run: |
+          set -euxo pipefail
+          # Find the Chrome/Chromium executable that was just installed by @puppeteer/browsers
+          BIN="$(ls -d $HOME/.cache/puppeteer/chrome/mac-*/1022525/chrome-*/Chrom*.app/Contents/MacOS/Chrom* | head -n1)"
+          echo "Resolved Chrome binary: $BIN"
+          test -x "$BIN"
+          echo "PUPPETEER_EXECUTABLE_PATH=$BIN" >> "$GITHUB_ENV"
+
+      # Optional sanity check (helps catch path issues fast)
+      - name: Smoke-test Puppeteer launch
+        run: node -e "const p=require('puppeteer');(async()=>{const b=await p.launch({executablePath:process.env.PUPPETEER_EXECUTABLE_PATH,headless:true});const pg=await b.newPage();await pg.goto('https://example.com',{waitUntil:'load',timeout:30000});console.log('PPT OK');await b.close();})();"
 
       - name: Build
+        env:
+          PUPPETEER_EXECUTABLE_PATH: ${{ env.PUPPETEER_EXECUTABLE_PATH }}
         run: npm run build
 
       - name: Deploy

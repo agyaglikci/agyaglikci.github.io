@@ -26,7 +26,7 @@
             <div class="col-print-8 col-12 col-md-9 d-flex justify-content-between flex-column">
                 <div>
                     <h1 class="mb-0">Abdullah Giray Yağlıkçı</h1>
-                    <div class="fs-5">Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich<br>Incoming Faculty at Helmholtz Center for Information Security (CISPA)<br></div>
+                    <div class="fs-5">Postdoctoral Researcher and Lecturer at SAFARI Research Group in ETH Zurich<br>Incoming Faculty at Helmholtz Center for Information Security (CISPA)<br></div>
                 </div>
             
             <!-- </div>
@@ -93,7 +93,7 @@
             
             <div class="text-body border border-2", style="font-size: small; padding: 7px;"><b>Full Reference:</b> Oğuzhan Canpolat, <u>A. Giray Yağlıkçı</u>, Geraldo Francisco de Oliveira, Ataberk Olgun, Nisa Bostanci, Ismail Emir Yuksel, Haocong Luo, Oğuz Ergin, and Onur Mutlu, <b>"Chronus: Understanding and Securing the Cutting-Edge Industry Solutions to DRAM Read Disturbance,"</b> in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.</div>
             
-            <p></p>
+            <p>We 1) present the first rigorous security, performance, energy, and cost analyses of the state-of-the-art on-DRAM-die read disturbance mitigation method, Per Row Activation Counting (PRAC) and 2) propose Chronus, a new mechanism that addresses PRAC's two major weaknesses. Our analysis shows that PRAC's system performance overhead on benign applications is non-negligible for modern DRAM chips and prohibitively large for future DRAM chips that are more vulnerable to read disturbance. We identify two weaknesses of PRAC that cause these overheads. First, PRAC increases critical DRAM access latency parameters due to the additional time required to increment activation counters. Second, PRAC performs a constant number of preventive refreshes at a time, making it vulnerable to an adversarial access pattern, known as the wave attack, and consequently requiring it to be configured for significantly smaller activation thresholds. To address PRAC's two weaknesses, we propose a new on-DRAM-die RowHammer mitigation mechanism, Chronus. Chronus 1) updates row activation counters concurrently while serving accesses by separating counters from the data and 2) prevents the wave attack by dynamically controlling the number of preventive refreshes performed. Our performance analysis shows that Chronus's system performance overhead is near-zero for modern DRAM chips and very low for future DRAM chips. Chronus outperforms three variants of PRAC and three other state-of-the-art read disturbance solutions. We discuss Chronus's and PRAC's implications for future systems and foreshadow future research directions. To aid future research, we open-source our Chronus implementation and the tools we develop to analyze PRAC.</p>
     
             <div>
                 <span class="badge text-body border border-2">Full Paper:
@@ -102,6 +102,9 @@
                 <span class="badge text-body border border-2">Slides:
                     <a href="https://people.inf.ethz.ch/omutlu/pub/Chronus_hpca25-talk.pptx"><i class="fa-solid fa-file-powerpoint"></i></a> 
                     <a href="https://people.inf.ethz.ch/omutlu/pub/Chronus_hpca25-talk.pdf"><i class="fa-solid fa-file-pdf"></i></a> 
+                </span>
+                <span class="badge text-body border border-2">Artifact:
+                    <a href="https://github.com/CMU-SAFARI/Chronus"><i class="fa-solid fa-code"></i></a> 
                 </span>
             </div>
     
@@ -112,6 +115,67 @@
                 <span class="badge text-body border border-1">memory</span>
                 <span class="badge text-body border border-1">dram</span>
                 <span class="badge text-body border border-1">memory controller</span>
+                <span class="badge text-body border border-1">hardware</span>
+            </div> 
+        </div>
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">BreakHammer: Enhancing RowHammer Mitigations by Carefully Throttling Suspect Threads <span style="font-size: medium;">in MICRO 2024</span></h3>
+            
+            <div class="text-body border border-2", style="font-size: small; padding: 7px;"><b>Full Reference:</b> Oğuzhan Canpolat, <u>A. Giray Yağlıkçı</u>, Ataberk Olgun, İsmail Emir Yüksel, Yahya Can Tuğrul, Konstantinos Kanellopoulos, Oğuz Ergin, and Onur Mutlu, "BreakHammer: Enhancing RowHammer Mitigations by Carefully Throttling Suspect Threads" in Proceedings of the 57th International Symposium on Microarchitecture (MICRO), Austin, TX, USA, November 2024.</div>
+            
+            <p>In this work, we tackle the performance overheads of RowHammer solutions by tracking and throttling the generators of memory accesses that trigger RowHammer solutions. To this end, we propose BreakHammer. BreakHammer 1) observes the time-consuming RowHammer-preventive actions of existing RowHammer mitigation mechanisms, 2) identifies hardware threads that trigger many of these actions, and 3) reduces the memory bandwidth usage of each identified thread. As such, BreakHammer significantly reduces the number of RowHammer-preventive actions performed, thereby improving 1) system performance and DRAM energy, and 2) reducing the maximum slowdown induced on a benign application, with near-zero area overhead. Our extensive evaluations demonstrate that BreakHammer effectively reduces the negative performance, energy, and fairness effects of eight RowHammer mitigation mechanisms. To foster further research we open-source our BreakHammer implementation and scripts</p>
+    
+            <div>
+                <span class="badge text-body border border-2">Full Paper:
+                    <a href="https://arxiv.org/pdf/2404.13477"><i class="fa-solid fa-file-pdf"></i></a> 
+                </span>
+                <span class="badge text-body border border-2">Slides:
+                    <a href="https://people.inf.ethz.ch/omutlu/pub/BreakHammer_micro24-talk.pptx"><i class="fa-solid fa-file-powerpoint"></i></a> 
+                    <a href="https://people.inf.ethz.ch/omutlu/pub/BreakHammer_micro24-talk.pdf"><i class="fa-solid fa-file-pdf"></i></a> 
+                </span>
+                <span class="badge text-body border border-2">Artifact:
+                    <a href="https://github.com/CMU-SAFARI/BreakHammer"><i class="fa-solid fa-code"></i></a> 
+                </span>
+            </div>
+    
+            <div>
+                <span class="badge text-body border border-1">rowhammer</span>
+                <span class="badge text-body border border-1">defense</span>
+                <span class="badge text-body border border-1">throttling</span>
+                <span class="badge text-body border border-1">memory</span>
+                <span class="badge text-body border border-1">dram</span>
+                <span class="badge text-body border border-1">memory controller</span>
+                <span class="badge text-body border border-1">hardware</span>
+                <span class="badge text-body border border-1">performance attacks</span>
+                <span class="badge text-body border border-1">denial of service</span>
+            </div> 
+        </div>
+        <div class="mb-4">
+            <h3 class="fs-4 fw-normal">Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions <span style="font-size: medium;">in HPCA 2025</span></h3>
+            
+            <div class="text-body border border-2", style="font-size: small; padding: 7px;"><b>Full Reference:</b> Yahya Can Tugrul, <u>A. Giray Yağlıkçı</u>, Ismail Emir Yuksel, Ataberk Olgun, Oguzhan Canpolat, Nisa Bostanci, Mohammad Sadrosadati, Oguz Ergin, and Onur Mutlu, "Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions" in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.</div>
+            
+            <p> In this paper, our goal is to mitigate RowHammer at low cost by understanding the impact of reduced preventive refresh latency on RowHammer. To this end, we present the first rigorous experimental study on the interactions between refresh latency and RowHammer characteristics in real DRAM chips. Our experimental characterization using 388 real DDR4 DRAM chips from three major manufacturers demonstrates that a preventive refresh latency can be significantly reduced (by 64%). To investigate the impact of reduced preventive refresh latency on system performance and energy efficiency, we reduce the preventive refresh latency and adjust the aggressiveness of existing RowHammer solutions by developing a new mechanism, Partial Charge Restoration for Aggressive Mitigation (PaCRAM). Our results show that PaCRAM reduces the performance and energy overheads induced by five state-of-the-art RowHammer mitigation mechanisms with small additional area overhead. Thus, PaCRAM introduces a novel perspective into addressing RowHammer vulnerability at low cost by leveraging our experimental observations. To aid future research, we open-source our PaCRAM implementation.</p>
+    
+            <div>
+                <span class="badge text-body border border-2">Full Paper:
+                    <a href="https://arxiv.org/pdf/2502.11745"><i class="fa-solid fa-file-pdf"></i></a> 
+                </span>
+                <span class="badge text-body border border-2">Slides:
+                    <a href="https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pptx"><i class="fa-solid fa-file-powerpoint"></i></a> 
+                    <a href="https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pdf"><i class="fa-solid fa-file-pdf"></i></a> 
+                </span>
+                <span class="badge text-body border border-2">Artifact:
+                    <a href="https://github.com/CMU-SAFARI/PaCRAM"><i class="fa-solid fa-code"></i></a> 
+                </span>
+            </div>
+    
+            <div>
+                <span class="badge text-body border border-1">rowhammer</span>
+                <span class="badge text-body border border-1">characterization</span>
+                <span class="badge text-body border border-1">charge restoration</span>
+                <span class="badge text-body border border-1">memory</span>
+                <span class="badge text-body border border-1">dram</span>
                 <span class="badge text-body border border-1">hardware</span>
             </div> 
         </div>

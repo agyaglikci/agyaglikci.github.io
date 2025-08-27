@@ -35,10 +35,7 @@ module.exports = {
     'email': '<a href="mailto:giray.yaglikci@safari.ethz.ch"><i class="fa fa-envelope fact-icon"></i>giray.yaglikci@safari.ethz.ch</a>',
     'safari': '<a href="https://safari.ethz.ch"><i class="fa fa-up-right-from-square fact-icon"></i>https://safari.ethz.ch</a>',
     'cispa': '<a href="https://cispa.de"><i class="fa fa-up-right-from-square fact-icon"></i>https://cispa.de</a>',
-    'join': `<a href="join.html" style="display:inline-block;
-            padding:2px;
-            border:1px solid #e27a2a;
-            border-radius:1px;
+    'join': `<a href="https://forms.gle/WJwrxu6dcakuKiQbA" style="display:inline-block;
             text-decoration:none;
             color:#e27a2a;
             font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#e27a2a;"></i>Work With Me!</a>`

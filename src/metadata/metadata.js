@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Abdullah Giray Yağlıkçı',
-  title: 'Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich',
+  title: 'Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich & Incoming Faculty at Helmholtz Center for Information Security (CISPA)',
   facts: {
     // 'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
     // 'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
@@ -12,15 +12,19 @@ module.exports = {
     <a href="https://www.youtube.com/channel/UCPqbz23zyVRXRFv-vtNyZGw"><i class="fa-brands fa-youtube fact-icon"></i></a>
     <a href="https://www.linkedin.com/in/agyaglikci/"><i class="fa-brands fa-linkedin fact-icon"></i></a>
     <a href="https://twitter.com/agyaglikci"><i class="fa-brands fa-twitter fact-icon"></i></a>`,
-    '': '<a href="mailto:giray.yaglikci@safari.ethz.ch"><i class="fa fa-envelope fact-icon"></i>giray.yaglikci@safari.ethz.ch</a>',
+    'email': '<a href="mailto:giray.yaglikci@safari.ethz.ch"><i class="fa fa-envelope fact-icon"></i>giray.yaglikci@safari.ethz.ch</a>',
+    'safari': '<a href="https://safari.ethz.ch"><i class="fa fa-up-right-from-square fact-icon"></i>https://safari.ethz.ch</a>',
+    'cispa': '<a href="mailto:giray.yaglikci@safari.ethz.ch"><i class="fa fa-up-right-from-square fact-icon"></i>https://cispa.de</a>',
     
   },
   skills: [
     ['HPCA', 10],
-    ['MICRO', 5],
-    ['ISCA', 7],
-    ['DSN', 5],
-    ['SIGMETRICS', 2]
+    ['MICRO', 7],
+    ['ISCA', 8],
+    ['DSN', 6],
+    ['SIGMETRICS', 2],
+    ['USENIX Security', 1],
+    
   ],
   educations: [
     {school: 'ETH Zürich', degree: 'PhD', period: '2024'},

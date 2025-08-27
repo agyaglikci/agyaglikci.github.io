@@ -1,7 +1,7 @@
 module.exports = {
   name: 'Abdullah Giray Yağlıkçı',
   titles: {
-    'primary': 'Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich', 
+    'primary': 'Postdoctoral Researcher and Lecturer at SAFARI Research Group in ETH Zurich', 
     'secondary': 'Incoming Faculty at Helmholtz Center for Information Security (CISPA)'
   },
   awards: [
@@ -371,6 +371,7 @@ module.exports = {
         {name: "Officially artifact evaluated as available, functional, and reproduced."},
         {name: "Invited Talk at Future of Memory Systems (FMS) 2025"}
       ],
+      summary: "We 1) present the first rigorous security, performance, energy, and cost analyses of the state-of-the-art on-DRAM-die read disturbance mitigation method, Per Row Activation Counting (PRAC) and 2) propose Chronus, a new mechanism that addresses PRAC's two major weaknesses. Our analysis shows that PRAC's system performance overhead on benign applications is non-negligible for modern DRAM chips and prohibitively large for future DRAM chips that are more vulnerable to read disturbance. We identify two weaknesses of PRAC that cause these overheads. First, PRAC increases critical DRAM access latency parameters due to the additional time required to increment activation counters. Second, PRAC performs a constant number of preventive refreshes at a time, making it vulnerable to an adversarial access pattern, known as the wave attack, and consequently requiring it to be configured for significantly smaller activation thresholds. To address PRAC's two weaknesses, we propose a new on-DRAM-die RowHammer mitigation mechanism, Chronus. Chronus 1) updates row activation counters concurrently while serving accesses by separating counters from the data and 2) prevents the wave attack by dynamically controlling the number of preventive refreshes performed. Our performance analysis shows that Chronus's system performance overhead is near-zero for modern DRAM chips and very low for future DRAM chips. Chronus outperforms three variants of PRAC and three other state-of-the-art read disturbance solutions. We discuss Chronus's and PRAC's implications for future systems and foreshadow future research directions. To aid future research, we open-source our Chronus implementation and the tools we develop to analyze PRAC.",
       sources:[
         {
           text:'Full Paper',
@@ -385,6 +386,75 @@ module.exports = {
             {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/Chronus_hpca25-talk.pdf'}
           ]
         },
+        {
+          text:'Artifact',
+          urls: [
+            {type: 'code', url:'https://github.com/CMU-SAFARI/Chronus'},
+          ]
+        }
+      ]
+    }, 
+    {
+      title: "BreakHammer: Enhancing RowHammer Mitigations by Carefully Throttling Suspect Threads",
+      venue: "MICRO 2024",
+      citation: "Oğuzhan Canpolat, <u>A. Giray Yağlıkçı</u>, Ataberk Olgun, İsmail Emir Yüksel, Yahya Can Tuğrul, Konstantinos Kanellopoulos, Oğuz Ergin, and Onur Mutlu, \"BreakHammer: Enhancing RowHammer Mitigations by Carefully Throttling Suspect Threads\" in Proceedings of the 57th International Symposium on Microarchitecture (MICRO), Austin, TX, USA, November 2024.",
+      keywords: ['rowhammer', 'defense', 'throttling', 'memory', 'dram', 'memory controller', 'hardware', "performance attacks", "denial of service"],
+      awards: [
+        {name: "Officially artifact evaluated as available, functional, and reproduced."},
+      ],
+      summary: "In this work, we tackle the performance overheads of RowHammer solutions by tracking and throttling the generators of memory accesses that trigger RowHammer solutions. To this end, we propose BreakHammer. BreakHammer 1) observes the time-consuming RowHammer-preventive actions of existing RowHammer mitigation mechanisms, 2) identifies hardware threads that trigger many of these actions, and 3) reduces the memory bandwidth usage of each identified thread. As such, BreakHammer significantly reduces the number of RowHammer-preventive actions performed, thereby improving 1) system performance and DRAM energy, and 2) reducing the maximum slowdown induced on a benign application, with near-zero area overhead. Our extensive evaluations demonstrate that BreakHammer effectively reduces the negative performance, energy, and fairness effects of eight RowHammer mitigation mechanisms. To foster further research we open-source our BreakHammer implementation and scripts",
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://arxiv.org/pdf/2404.13477'}
+          ]
+        },
+        {
+          text:'Slides',
+          urls: [
+            {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/BreakHammer_micro24-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/BreakHammer_micro24-talk.pdf'}
+          ]
+        },
+        {
+          text:'Artifact',
+          urls: [
+            {type: 'code', url:'https://github.com/CMU-SAFARI/BreakHammer'},
+          ]
+        }
+      ]
+    },
+    {
+      title: "Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions",
+      venue: "HPCA 2025",
+      citation: "Yahya Can Tugrul, <u>A. Giray Yağlıkçı</u>, Ismail Emir Yuksel, Ataberk Olgun, Oguzhan Canpolat, Nisa Bostanci, Mohammad Sadrosadati, Oguz Ergin, and Onur Mutlu, \"Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions\" in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
+      keywords: ['rowhammer', 'characterization', 'charge restoration', 'memory', 'dram', 'hardware'],
+      awards: [
+        {name: "Officially artifact evaluated as available, functional, and reproduced."},
+        {name: "Distinguished Artifact Award at HPCA 2025"}
+      ],
+      summary: " In this paper, our goal is to mitigate RowHammer at low cost by understanding the impact of reduced preventive refresh latency on RowHammer. To this end, we present the first rigorous experimental study on the interactions between refresh latency and RowHammer characteristics in real DRAM chips. Our experimental characterization using 388 real DDR4 DRAM chips from three major manufacturers demonstrates that a preventive refresh latency can be significantly reduced (by 64%). To investigate the impact of reduced preventive refresh latency on system performance and energy efficiency, we reduce the preventive refresh latency and adjust the aggressiveness of existing RowHammer solutions by developing a new mechanism, Partial Charge Restoration for Aggressive Mitigation (PaCRAM). Our results show that PaCRAM reduces the performance and energy overheads induced by five state-of-the-art RowHammer mitigation mechanisms with small additional area overhead. Thus, PaCRAM introduces a novel perspective into addressing RowHammer vulnerability at low cost by leveraging our experimental observations. To aid future research, we open-source our PaCRAM implementation.",
+      sources:[
+        {
+          text:'Full Paper',
+          urls: [
+            {type: 'file-pdf', url:'https://arxiv.org/pdf/2502.11745'}
+          ]
+        },
+        {
+          text:'Slides',
+          urls: [
+s           {type: 'file-powerpoint', url: 'https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pptx'},
+            {type: 'file-pdf', url: 'https://people.inf.ethz.ch/omutlu/pub/PacRAM_hpca25-talk.pdf'}
+          ]
+        },
+        {
+          text:'Artifact',
+          urls: [
+            {type: 'code', url:'https://github.com/CMU-SAFARI/PaCRAM'},
+          ]
+        }
       ]
     }
   ],

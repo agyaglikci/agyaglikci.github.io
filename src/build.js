@@ -6,7 +6,7 @@ const getSlug = require('speakingurl');
 const dayjs = require('dayjs');
 const repoName = require('git-repo-name');
 const username = require('git-username');
-const buildPdf = require('./utils/pdf.js');
+// const buildPdf = require('./utils/pdf.js');
 
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
@@ -32,4 +32,4 @@ const html = template({
 fs.writeFileSync(outputDir + '/index.html', html);
 
 // Build PDF
-buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);
+// buildPdf(`${outputDir}/index.html`, `${outputDir}/${pdfFileName}`);

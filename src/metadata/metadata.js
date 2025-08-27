@@ -1,8 +1,26 @@
 module.exports = {
   name: 'Abdullah Giray Yağlıkçı',
-  titles: [
-    'Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich', 
-    'Incoming Faculty at Helmholtz Center for Information Security (CISPA)'],
+  titles: {
+    'primary': 'Senior Researcher and Lecturer at SAFARI Research Group in ETH Zurich', 
+    'secondary': 'Incoming Faculty at Helmholtz Center for Information Security (CISPA)'
+  },
+  awards: [
+    {
+      award: 'W. C. Carter PhD Dissertation Award in Dependability', 
+      year: '2025', 
+      result: 'Recipient', 
+      urls: [
+        {type: 'play', url:'https://www.youtube.com/watch?v='},
+        {type: 'file-powerpoint', url: 'talks/yaglikci-dsn_wc_carter_dissertation_award_presentation-2025_06_26.pptx'},
+        {type: 'file-pdf', url: 'talks/yaglikci-dsn_wc_carter_dissertation_award_presentation-2025_06_26.pdf'}]
+    },
+    {award: 'ACM SIGARCH / IEEE CS TCCA Outstanding Dissertation Award', year: '2025', result: 'Honorable Mention'},
+    {award: 'ETH Medal', year: '2024', result: 'Nominated'},
+    {award: 'HOST PhD Dissertation Competition', year: '2024', result: 'Finalist'},
+    {award: 'IEEE TTTC E. J. McCluskey Best Doctoral Thesis Award', year: '2025', result: 'Semi-finalist'},
+    {award: 'ACM PACT Student Research Competition', year: '2023', result: 'Finalist for an early version of Svärd (HPCA 2024)'},
+    {award: 'Intel Hardware Security Academic Award', year: '2022', result: 'Finalist for BlockHammer (HPCA 2021)'},
+  ],
   facts: {
     // 'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
     // 'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">

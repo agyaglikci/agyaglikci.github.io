@@ -1,8 +1,8 @@
 module.exports = {
   name: 'Abdullah Giray Yağlıkçı',
   titles: {
-    'primary': 'Postdoctoral Researcher and Lecturer at SAFARI Research Group in ETH Zurich', 
-    'secondary': 'Incoming Faculty at Helmholtz Center for Information Security (CISPA)'
+    'primary': 'Tenure-Track Faculty at CISPA', 
+    // 'secondary': 'Helmholtz Institute Center for Information Security'
   },
   awards: [
     {

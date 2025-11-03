@@ -50,3 +50,6 @@ micro23_phd_forum_lightning_talk_submission12_yaglikci.pdf filter=lfs diff=lfs m
 yaglikci-dsn_wc_carter_dissertation_award_presentation-2025_06_26.pdf filter=lfs diff=lfs merge=lfs -text
 giray-enabling_secure_and_sustainable_system_scaling-UC_Berkeley-2025-08-05.pdf filter=lfs diff=lfs merge=lfs -text
 giray-enabling_secure_and_sustainable_system_scaling-UC_Berkeley-2025-08-05.pptx filter=lfs diff=lfs merge=lfs -text
+giray-mitigating_and_breaking_RowHammer_in_modern_DRAM_based_systems-2025-10-23.pdf filter=lfs diff=lfs merge=lfs -text
+giray-mitigating_and_breaking_RowHammer_in_modern_DRAM_based_systems-2025-10-23.pptx filter=lfs diff=lfs merge=lfs -text
+~$giray-mitigating_and_breaking_RowHammer_in_modern_DRAM_based_systems-2025-10-23.pptx filter=lfs diff=lfs merge=lfs -text

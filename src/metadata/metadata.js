@@ -6,6 +6,14 @@ module.exports = {
   },
   awards: [
     {
+      award: 'ACM SIGMICRO Dissertation Award', 
+      year: '2025', 
+      result: 'Recipient', 
+      urls: [
+        {type: 'share-from-square', url:'https://safari.ethz.ch/acm-sigmicro-dissertation-award-for-giray-yaglikci/'}
+      ]
+    },
+    {
       award: 'W. C. Carter PhD Dissertation Award in Dependability', 
       year: '2025', 
       result: 'Recipient', 

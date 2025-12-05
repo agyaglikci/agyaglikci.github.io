@@ -2,7 +2,7 @@ const handlebars = require('handlebars');
 const fs = require('fs-extra');
 const path = require('path');
 const markdownHelper = require('./utils/helpers/markdown');
-const templateData = require('./metadata/metadata');
+const defaultMetadata = require('./metadata/metadata');
 const getSlug = require('speakingurl');
 const dayjs = require('dayjs');
 const repoName = require('git-repo-name');
@@ -12,6 +12,25 @@ const username = require('git-username');
 const srcDir = __dirname;
 const outputDir = __dirname + '/../dist';
 const templatesDir = srcDir + '/templates';
+const metadataDir = srcDir + '/metadata';
+
+// Helper function to load metadata for a specific template
+function getMetadataForTemplate(templateFile) {
+  const templateBaseName = path.basename(templateFile, '.html');
+  const specificMetadataPath = path.join(metadataDir, `metadata-${templateBaseName}.js`);
+  
+  // Check if template-specific metadata exists
+  if (fs.existsSync(specificMetadataPath)) {
+    console.log(`  Using metadata file: metadata-${templateBaseName}.js`);
+    // Clear the require cache to ensure fresh data for each template
+    delete require.cache[require.resolve(specificMetadataPath)];
+    return require(specificMetadataPath);
+  }
+  
+  // Fall back to default metadata
+  console.log(`  Using default metadata file: metadata.js`);
+  return defaultMetadata;
+}
 
 // Clear dist dir
 fs.emptyDirSync(outputDir);
@@ -29,6 +48,9 @@ const templateFiles = fs.readdirSync(templatesDir)
 // Process each template file
 templateFiles.forEach(templateFile => {
   console.log(`Processing template: ${templateFile}`);
+  
+  // Load template-specific metadata
+  const templateData = getMetadataForTemplate(templateFile);
   
   // Read and compile template
   const source = fs.readFileSync(path.join(templatesDir, templateFile), 'utf-8');

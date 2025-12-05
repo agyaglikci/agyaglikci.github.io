@@ -63,8 +63,7 @@ module.exports = {
     <a href="https://www.youtube.com/channel/UCPqbz23zyVRXRFv-vtNyZGw"><i class="fa-brands fa-youtube fact-icon"></i></a>
     <a href="https://www.linkedin.com/in/agyaglikci/"><i class="fa-brands fa-linkedin fact-icon"></i></a>
     <a href="https://twitter.com/agyaglikci"><i class="fa-brands fa-twitter fact-icon"></i></a>`,
-    'email': '<a href="mailto:giray.yaglikci@safari.ethz.ch"><i class="fa fa-envelope fact-icon"></i>giray.yaglikci@safari.ethz.ch</a>',
-    'safari': '<a href="https://safari.ethz.ch"><i class="fa fa-up-right-from-square fact-icon"></i>https://safari.ethz.ch</a>',
+    'email': '<a href="mailto:giray@cispa.de"><i class="fa fa-envelope fact-icon"></i>giray@cispa.de</a>',
     'cispa': '<a href="https://cispa.de"><i class="fa fa-up-right-from-square fact-icon"></i>https://cispa.de</a>',
     'join': `<a href="https://forms.gle/WJwrxu6dcakuKiQbA" style="display:inline-block;
             text-decoration:none;
@@ -78,6 +77,70 @@ module.exports = {
     // 'ORCID': '<a href="https://orcid.org/0000-0002-1825-0097"><i class="fa-brands fa-orcid fact-icon"></i>0000-0002-1825-0097</a>',
     
   },
+  groupfacts: {
+    // 'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
+    // 'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+    //               <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+    //             </a>`,
+
+    'Reach me': `<a href="https://dblp.org/pid/147/4019.html"><i class="fa fa-graduation-cap fact-icon" aria-hidden="true"></i></a>
+    <a href="https://github.com/Secure-Sustainable-System-Scaling-Lab"><i class="fa-brands fa-github fact-icon"></i></a>
+    <a href="https://www.youtube.com/@SecSysLab"><i class="fa-brands fa-youtube fact-icon"></i></a>`,
+    // 'email': '<a href="mailto:giray@cispa.de"><i class="fa fa-envelope fact-icon"></i>giray@cispa.de</a>',
+    // 'cispa': '<a href="https://cispa.de"><i class="fa fa-up-right-from-square fact-icon"></i>https://cispa.de</a>',
+    'join': `<a href="https://forms.gle/WJwrxu6dcakuKiQbA" style="display:inline-block;
+            text-decoration:none;
+            color:#ff0a0a;
+            font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#ff0a0a;"></i>Join the Team!</a>`
+    // 'Phone': '<a href="tel:+1234567890"><i class="fa fa-phone fact-icon"></i>+1 (234) 567-890</a>',
+    // 'ORCID': '<a href="https://orcid.org/0000-0002-1825-0097"><i class="fa-brands fa-orcid fact-icon"></i>0000-0002-1825-0097</a>',
+    // 'ResearcherID': '<a href="http://www.researcherid.com/rid/A-1009-2009"><i class="fa fa-id-badge fact-icon"></i>A-1009-2009</a>',
+    // 'Scopus': '<a href="https://www.scopus.com/authid/detail.uri?authorId=7004212771"><i class="fa fa-search fact-icon"></i>7004212771</a>',
+    // 'GScholar': '<a href="https://scholar.google.com/citations?user=XXXXXX"><i class="fa fa-graduation-cap fact-icon"></i>XXXXXX</a>',
+    // 'ORCID': '<a href="https://orcid.org/0000-0002-1825-0097"><i class="fa-brands fa-orcid fact-icon"></i>0000-0002-1825-0097</a>',
+    
+  },
+  members: [
+    {
+      name: 'Abdullah Giray Yağlıkçı', 
+      role: 'Group Leader', 
+      photo: 'photo.jpg',
+      web: 'https://agyaglikci.github.io',
+    },
+    {
+      name: 'Sooraj Suresh Beeja', 
+      role: 'Student Assistant', 
+      photo: 'https://cispa.de/person-images/c01sosu.jpg',
+      web: 'https://cispa.de/en/people/c01sosu',
+    },
+    {
+      name: 'Namhun Kim', 
+      role: 'Researcher', 
+      photo: 'https://media.licdn.com/dms/image/v2/D5603AQF4L8ukJ_MyrQ/profile-displayphoto-shrink_800_800/B56Zap9oMiGoAc-/0/1746608227537?e=1766620800&v=beta&t=Kp-hWXpywsPshQA3BwBtUi4LseHY09szbfxroiYlw78',
+      web: 'https://www.linkedin.com/in/namhun-kim-b03035317/',
+    },
+    {
+      name: 'Sena Filiz', 
+      role: 'Affiliated Researcher', 
+      photo: 'https://www.kasirga.net/wp-content/uploads/2024/05/fotograf-e1715331777630-768x769.jpg',
+      web: "https://www.linkedin.com/in/sena-filiz-8b6632252/"
+    },
+    {
+      name: 'Betül Aydeğer', 
+      role: 'Affiliated Researcher', 
+      photo: 'https://www.kasirga.net/wp-content/uploads/2024/05/betulaydeger-e1715331953304-768x768.jpg',
+      web: 'https://www.linkedin.com/in/betül-aydeğer-262793298/',
+    },
+  ],
+  research_areas: [
+    {area: "Computer architecture", icon: "microchip"},
+    {area: "Hardware security", icon: "shield-alt"},
+    {area: "Memory systems", icon: "memory"},
+    {area: "Dependability", icon: "check-circle"},
+    {area: "Hardware-Software Co-Design", icon: "cogs"},
+    {area: "Data-Centric Security", icon: "database"},
+    {area: "Testing and Verification", icon: "magnifying-glass"},
+  ],
   skills: [
     ['HPCA', 10],
     ['MICRO', 7],

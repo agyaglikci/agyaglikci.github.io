@@ -7,6 +7,72 @@
     --bs-body-font-size: 1rem;
 }
 
+.authors{
+    color: #555555;
+    font-size: 0.9rem;
+}
+
+.venue{
+    color: #777777;
+    font-size: 0.9rem;
+}
+.title{
+    color: #000000;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.summary{
+    color: #333333;
+    font-size: 0.8rem;
+    padding: 5pt;
+    border-style: solid;
+    border-width: 0.5pt;
+    border-color: #CCCCCC;
+    background-color: #F9F9F9;
+    /* margin-bottom: 10pt; */
+    visibility: hidden;
+    height: 0pt;
+}
+
+.links{
+    font-size: 0.9rem;
+}
+
+.bibtex{
+    font-size: 0.8rem;
+    color: #0066cc;
+}
+
+.bibtex-content {
+    margin-bottom: 0.5rem;
+    font-family: monospace;
+    font-size: small;
+}
+
+.bibtex-indented {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 1.5rem;
+}
+
+.bibtex-copy-link {
+    font-size: 0.75rem;
+    color: #0066cc;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bibtex-copy-link:hover {
+    color: #004499;
+    text-decoration: underline;
+}
+
+.award{
+    font-size: 0.8rem;
+    color: #d70303;
+}
+
 a {
     word-break: break-word;
     text-decoration: none;

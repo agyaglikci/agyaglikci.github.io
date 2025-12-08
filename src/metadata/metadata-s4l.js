@@ -20,7 +20,7 @@ module.exports = {
     {
       name: 'Abdullah Giray Yağlıkçı', 
       role: 'Group Leader', 
-      photo: 'photo.jpg',
+      photo: 'https://cispa.de/person-images/c01abya.jpg',
       web: 'https://agyaglikci.github.io',
     },
     {
@@ -57,4 +57,5 @@ module.exports = {
     {area: "Data-Centric Security", icon: "database"},
     {area: "Testing and Verification", icon: "magnifying-glass"},
   ],
+
 };

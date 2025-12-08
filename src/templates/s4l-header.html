@@ -1,0 +1,28 @@
+ <div class="row" style="margin-bottom: 10px;">
+    <div class="col-4 col-md-3 col-lg-2 d-none d-md-block"> 
+        <!--  offset-lg-1 ">  -->
+        <!-- align-md-self-center text-center -->
+        <a href="s4l.html"><img src="s4l.png" class="img-fluid" alt=""></a>
+    </div>
+    <!-- <div class="col-print-6 col-12 col-md-5 d-flex justify-content-between flex-column"> -->
+    <div class="col-print-8 col-8 col-md-9 d-flex justify-content-between flex-column">
+        <div>
+            <h1 class="mb-0">Secure and Sustainable System Scaling Lab</h1>
+            <div class="fs-5">Systems 4 Life</div>
+        </div>
+        <ul class="list-group list-group-flush">
+            {{#each groupfacts}}
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <!-- <span class="text-nowrap" style="font-size: medium;">{{ @key }}</span> -->
+                <span class="text-nowrap">{{{ this }}}</span>
+            </li>
+            {{/each}}
+        </ul>
+        
+    </div>
+
+    
+    <!-- <div class="col-print-2 ">
+        <img src="qrcode.png" class="rounded-circle img-fluid" alt="Personal photo">
+    </div> -->
+</div>

@@ -674,6 +674,32 @@ const selected_publications = [
 ]
 
 const other_publications = [
+    { title: "Memory Band-Aid: A Principled RowHammer Defense-in-Depth",
+      venue: "Network and Distributed System Security Symposium (NDSS), San Diego, CA, USA",
+      year: 2026,
+      type: "conference",
+      bibtextype: 'inproceedings',
+      label: 'fiedler2026memory',
+      // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, Abdullah Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
+      authors: [
+        {lastname: 'Fiedler', firstname: 'Carina'},
+        {lastname: 'Juffinger', firstname: 'Jonas'},
+        {lastname: 'Neela', firstname: 'Sudheendra Raghav'},
+        {lastname: 'Heckel', firstname: 'Martin'},
+        {lastname: 'Weissteiner', firstname: 'Hannes'},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Adamsky', firstname: 'Florian'},
+        {lastname: 'Gruss', firstname: 'Daniel'}
+      ],
+      sources:[
+        {
+          text:'Preprint',
+          urls: [
+            {type: 'pdf', url:'https://carinafiedler.com/papers/memory_bandaid.pdf'},
+          ]
+        }
+      ]
+    },
     { title: "PuDHammer: Experimental Analysis of Read Disturbance Effects of Processing-using-DRAM in Real DRAM Chips",
       venue: "52nd Annual International Symposium on Computer Architecture (ISCA), Tokyo, Japan",
       year: 2025,
@@ -1976,9 +2002,42 @@ Proceedings of the 48th International Symposium on Computer Architecture (ISCA),
 
 const publications = selected_publications.concat(other_publications, theses);
 
+// Count occurrences of each venue text
+const venue_counts = {
+  "International Symposium on High-Performance Computer Architecture (HPCA)": 0,
+  "International Symposium on Computer Architecture (ISCA)": 0,
+  "International Symposium on Microarchitecture (MICRO)": 0,
+  "USENIX Security Symposium": 0,
+  "Network and Distributed System Security Symposium (NDSS)": 0,
+  "ACM International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)": 0,
+  "Workshop on DRAM Security (DRAMsec)": 0
+};
+
+publications.forEach(pub => {
+  const venue = pub.venue;
+  // if one of the venue_counts keys is a substring of venue, count it
+  Object.keys(venue_counts).forEach(key => {
+    if (venue.includes(key)) {
+      venue_counts[key] = venue_counts[key] + 1;
+    }
+  }
+  );
+});
+
+// Convert venue_counts to sorted array for template
+const venue_counts_array = Object.entries(venue_counts)
+  .sort((a, b) => b[1] - a[1]); // Sort by count descending
+
+// Log the results
+console.log('Venue occurrence counts:');
+venue_counts_array.forEach(([venue, count]) => {
+  console.log(`${count}x: ${venue}`);
+});
+
 module.exports = {
   publications,
   theses,
   selected_publications,
-  other_publications
+  other_publications,
+  venue_counts: venue_counts_array
 };

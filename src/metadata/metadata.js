@@ -68,7 +68,8 @@ module.exports = {
     'join': `<a href="https://forms.gle/WJwrxu6dcakuKiQbA" style="display:inline-block;
             text-decoration:none;
             color:#e27a2a;
-            font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#e27a2a;"></i>Work With Me!</a>`
+            font-weight:800;"><i class="fa fa-up-right-from-square fact-icon" style="color:#e27a2a;"></i>Work With Me!</a>`,
+    'bibtex': `<a href="bibtex.html" style="display:inline-block;">[BibTeX here]</a>`
     // 'Phone': '<a href="tel:+1234567890"><i class="fa fa-phone fact-icon"></i>+1 (234) 567-890</a>',
     // 'ORCID': '<a href="https://orcid.org/0000-0002-1825-0097"><i class="fa-brands fa-orcid fact-icon"></i>0000-0002-1825-0097</a>',
     // 'ResearcherID': '<a href="http://www.researcherid.com/rid/A-1009-2009"><i class="fa fa-id-badge fact-icon"></i>A-1009-2009</a>',
@@ -604,10 +605,31 @@ module.exports = {
   ],
   services:[
     {
+      year: "2026",
+      roles: [
+        {role: "Program Committee Member", venues: "HPCA, DSN, and ISCA"},
+      ],
+    },
+    {
+      year: "2025",
+      roles: [
+        {role: "Program Committee Member", venues: "DRAMSec Workshop at ISCA"},
+        {role: "Submission and Web Co-Chair", venues: "DRAMSec Workshop at ISCA"},
+        {role: "Reviewer", venues: "IEEE CAL"},
+        {role: "Organization Chair", venues: "SaLWo: SAFARI Live Workshop"}
+      ], 
+    },
+    {
+      year: "2024",
+      roles: [
+        {role: "Artifact Evaluation Committee Member", venues: "ASPLOS and DSN"},
+      ],
+    },
+    {
       year: "2023",
       roles: [
         {role: "Student Assistant to PC chairs", venues: "DSN"},
-        {role: "Reviewer", venues: "DSN"},
+        {role: "External Program Committee Member", venues: "DSN"},
       ],
     },
     {

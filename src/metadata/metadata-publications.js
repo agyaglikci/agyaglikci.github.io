@@ -57,7 +57,7 @@ const selected_publications = [
 // "ColumnDisturb: Understanding Column-based Read Disturbance in Real DRAM Chips and Implications for Future Systems"
 // Proceedings of the 58th International Symposium on Microarchitecture (MICRO), Seoul, South Korea, October 2025.
 // [Slides (pptx) (pdf)]
-// Nisa Bostanci, Oguzhan Canpolat, Ataberk Olgun, Ismail Emir Yuksel, Konstantinos Kanellopoulos, Mohammad Sadrosadati, A. Giray Yaglikci, and Onur Mutlu,
+// Nisa Bostanci, Oğuzhan Canpolat, Ataberk Olgun, Ismail Emir Yuksel, Konstantinos Kanellopoulos, Mohammad Sadrosadati, A. Giray Yaglikci, and Onur Mutlu,
 // "Understanding and Mitigating Covert Channel and Side Channel Vulnerabilities Introduced by RowHammer Defenses"
 // Proceedings of the 58th International Symposium on Microarchitecture (MICRO), Seoul, South Korea, October 2025.
 // [Slides (pptx) (pdf)]
@@ -73,9 +73,9 @@ const selected_publications = [
     authors: [
       {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
       {lastname: 'Olgun', firstname: 'Ataberk'},
-      {lastname: 'Bostanci', firstname: 'Nisa', lastnamelatex: 'Bostanc{\\i}'},
-      {lastname: 'Canpolat', firstname: 'Oguzhan', firstnamelatex: 'O\\u{g}uzhan'},
-      {lastname: 'de Oliveira', firstname: 'Geraldo Francisco', lastnamelatex: 'de Oliveira Junior'},
+      {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+      {lastname: 'Canpolat', firstname: 'Oğuzhan', firstnamelatex: 'O\\u{g}uzhan'},
+      {lastname: 'Oliveira', firstname: 'Geraldo F.'},
       {lastname: 'Sadrosadati', firstname: 'Mohammad'},
       {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Mutlu', firstname: 'Onur'}
@@ -103,7 +103,7 @@ const selected_publications = [
     authors: [
       {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
       {lastname: 'Olgun', firstname: 'Ataberk'},
-      {lastname: 'Bostanci', firstname: 'Nisa', lastnamelatex: 'Bostanc{\\i}'},
+      {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
       {lastname: 'Luo', firstname: 'Haocong'},
       {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Mutlu', firstname: 'Onur'}
@@ -129,8 +129,8 @@ const selected_publications = [
     bibtextype: 'inproceedings',
     label: 'bostanci2025understanding',
     authors: [
-      {lastname: 'Bostanci', firstname: 'Nisa', lastnamelatex: 'Bostanc{\\i}'},
-      {lastname: 'Canpolat', firstname: 'Oguzhan', firstnamelatex: 'O\\u{g}uzhan'},
+      {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+      {lastname: 'Canpolat', firstname: 'Oğuzhan', firstnamelatex: 'O\\u{g}uzhan'},
       {lastname: 'Olgun', firstname: 'Ataberk'},
       {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
       {lastname: 'Kanellopoulos', firstname: 'Konstantinos'},
@@ -138,7 +138,7 @@ const selected_publications = [
       {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Mutlu', firstname: 'Onur'}
     ],
-    citation: "Nisa Bostancı, Oguzhan Canpolat, Ataberk Olgun, İsmail Emir Yüksel, Konstantinos Kanellopoulos, Mohammad Sadrosadati, <u>A. Giray Yağlıkçı</u>, and Onur Mutlu, \"Understanding and Mitigating Covert Channel and Side Channel Vulnerabilities Introduced by RowHammer Defenses\" in Proceedings of the 58th International Symposium on Microarchitecture (MICRO), Seoul, South Korea, October 2025.",
+    citation: "Nisa Bostancı, Oğuzhan Canpolat, Ataberk Olgun, İsmail Emir Yüksel, Konstantinos Kanellopoulos, Mohammad Sadrosadati, <u>A. Giray Yağlıkçı</u>, and Onur Mutlu, \"Understanding and Mitigating Covert Channel and Side Channel Vulnerabilities Introduced by RowHammer Defenses\" in Proceedings of the 58th International Symposium on Microarchitecture (MICRO), Seoul, South Korea, October 2025.",
     keywords: ['rowhammer', 'security', 'defense', 'covert channel', 'side channel', 'memory', 'dram', 'hardware'],
     sources:[
       {
@@ -167,10 +167,10 @@ const selected_publications = [
       authors: [
         {lastname: 'Canpolat', firstname: 'Oğuzhan', firstnamelatex: 'O\\u{g}uzhan'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'de Oliveira', firstname: 'Geraldo Francisco'},
+        {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Bostanci', firstname: 'Nisa', lastnamelatex: 'Bostanc{\\i}'},
-        {lastname: 'Yuksel', firstname: 'Ismail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Yüksel', firstname: 'Ismail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
@@ -227,13 +227,13 @@ const selected_publications = [
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Yüksel', firstname: 'Ismail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Canpolat', firstname: 'Oguzhan', firstnamelatex: 'O\\u{g}uzhan'},
-        {lastname: 'Bostanci', firstname: 'Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Canpolat', firstname: 'Oğuzhan', firstnamelatex: 'O\\u{g}uzhan'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Sadrosadati', firstname: 'Mohammad'},
-        {lastname: 'Ergin', firstname: 'Oguz', firstnamelatex: 'O\\u{g}uz'},
+        {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: "Yahya Can Tugrul, <u>A. Giray Yağlıkçı</u>, Ismail Emir Yuksel, Ataberk Olgun, Oguzhan Canpolat, Nisa Bostanci, Mohammad Sadrosadati, Oguz Ergin, and Onur Mutlu, \"Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions\" in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
+      citation: "Yahya Can Tugrul, <u>A. Giray Yağlıkçı</u>, Ismail Emir Yuksel, Ataberk Olgun, Oğuzhan Canpolat, Nisa Bostanci, Mohammad Sadrosadati, Oğuz Ergin, and Onur Mutlu, \"Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions\" in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
       keywords: ['rowhammer', 'characterization', 'charge restoration', 'memory', 'dram', 'hardware'],
       awards: [
         {name: "Officially artifact evaluated as available, functional, and reproduced."},
@@ -317,7 +317,7 @@ const selected_publications = [
       authors: [
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Rhyner', firstname: 'Steve'},
@@ -359,7 +359,7 @@ const selected_publications = [
       year: 2024,
       authors: [
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Tuğrul', firstname: 'Yahya Can'},
+        {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
@@ -409,7 +409,7 @@ const selected_publications = [
       authors: [
         {lastname: 'Mutlu', firstname: 'Onur'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true}
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true}
       ],
       citation: `Onur Mutlu, Ataberk Olgun, and <u>A. Giray Yağlıkçı</u>,
       <b>"Fundamentally Understanding and Solving RowHammer"</b>
@@ -446,10 +446,10 @@ const selected_publications = [
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Hassan', firstname: 'Hasan'},
         {lastname: 'Orosa', firstname: 'Lois'},
-        {lastname: 'Ergin', firstname: 'Oguz'},
+        {lastname: 'Ergin', firstname: 'Oğuz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: `<u>A. Giray Yağlıkçı</u>, Ataberk Olgun, Minesh Patel, Haocong Luo, Hasan Hassan, Lois Orosa, Oguz Ergin, and Onur Mutlu,
+      citation: `<u>A. Giray Yağlıkçı</u>, Ataberk Olgun, Minesh Patel, Haocong Luo, Hasan Hassan, Lois Orosa, Oğuz Ergin, and Onur Mutlu,
       "HiRA: Hidden Row Activation for Reducing Refresh Latency of Off-the-Shelf DRAM Chips"
       Proceedings of the 55th International Symposium on Microarchitecture (MICRO), Chicago, IL, USA, October 2022.`,
       keywords: ['rowhammer', 'defense', 'refresh', 'memory', 'dram', 'memory controller', 'subarray', 'parallelism'],
@@ -504,7 +504,7 @@ const selected_publications = [
       authors: [
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Luo', firstname: 'Haocong'},
-        {lastname: 'Oliveira', firstname: 'Geraldo F. de'},
+        {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Patel', firstname: 'Minesh'},
         {lastname: 'Park', firstname: 'Jisung'},
@@ -712,7 +712,7 @@ const other_publications = [
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Canpolat', firstname: 'Oğuzhan', firstnamelatex: 'O\\u{g}uzhan'},
         {lastname: 'Luo', firstname: 'Haocong'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Sadrosadati', firstname: 'Mohammad'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Mutlu', firstname: 'Onur'}
@@ -749,7 +749,7 @@ const other_publications = [
         {lastname: 'Sadrosadati', firstname: 'Mohammad'},
         {lastname: 'Olivares', firstname: 'Joaquin'},
         {lastname: 'Ghose', firstname: 'Saugata'},
-        {lastname: 'Gomez-Luna', firstname: 'Juan'},
+        {lastname: 'Gómez-Luna', firstname: 'Juan'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
       sources:[
@@ -775,13 +775,13 @@ const other_publications = [
       bibtextype: 'inproceedings',
       label: 'bostanci2025revisiting',
       authors: [
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Kanellopoulos', firstname: 'Konstantinos'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Ghiasi', firstname: 'Nika Mansouri'},
-        {lastname: 'Bingol', firstname: 'Zulal'},
+        {lastname: 'Bingol', firstname: 'Zülal', firstnamelatex: 'Z{\\\"{u}}lal'},
         {lastname: 'Sadrosadati', firstname: 'Mohammad'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
@@ -853,7 +853,7 @@ const other_publications = [
       label: 'olgun2025variable',
       authors: [
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
@@ -958,13 +958,13 @@ const other_publications = [
       label: 'olgun2024sectored',
       authors: [
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Bera', firstname: 'Rahul'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Hassan', firstname: 'Hasan'},
-        {lastname: 'Ergin', firstname: 'Oguz', firstnamelatex: 'O\\u{g}uz'},
+        {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
       sources:[
@@ -999,8 +999,8 @@ const other_publications = [
       authors: [
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Tugrul', firstname: 'Yahya Can'},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Rhyner', firstname: 'Steve'},
         {lastname: 'Cavlak', firstname: 'M. Banu'},
         {lastname: 'Lindegger', firstname: 'Joel'},
@@ -1069,7 +1069,7 @@ const other_publications = [
       authors: [
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Olgun', firstname: 'Ataberk'},
@@ -1148,7 +1148,7 @@ const other_publications = [
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Luo', firstname: 'Haocong'},
@@ -1187,7 +1187,7 @@ const other_publications = [
       bibtextype: 'inproceedings',
       label: 'bostanci2024comet',
       authors: [
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Kanellopoulos', firstname: 'Konstantinos'},
@@ -1232,8 +1232,8 @@ const other_publications = [
       authors: [
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Gómez-Luna', firstname: 'Juan'},
         {lastname: 'Ghose', firstname: 'Saugata'},
         {lastname: 'Mutlu', firstname: 'Onur'}
@@ -1270,10 +1270,10 @@ const other_publications = [
       label: 'luo2024ramulator2',
       authors: [
         {lastname: 'Luo', firstname: 'Haocong'},
-        {lastname: 'Tugrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
       citation: `Haocong Luo, Yahya Can Tuğrul, F. Nisa Bostanci, Ataberk Olgun, <u>A. Giray Yaglikci</u>, and Onur Mutlu, <b>"Ramulator 2.0: A Modern, Modular, and Extensible DRAM Simulator"</b> IEEE Access, vol. 12, pp. 14745-14764, 2024.`,
@@ -1340,8 +1340,8 @@ const other_publications = [
       authors: [
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Tugrul', firstname: 'Yahya Can'},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Rhyner', firstname: 'Steve'},
         {lastname: 'Cavlak', firstname: 'M. Banu'},
         {lastname: 'Lindegger', firstname: 'Joel'},
@@ -1401,16 +1401,16 @@ const other_publications = [
       label: 'olgun2023hbmrowhammer',
       authors: [
         {lastname: 'Olgun', firstname: 'Ataberk'},
-        {lastname: 'Osserian', firstname: 'Majd'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Tugrul', firstname: 'Yahya Can'},
+        {lastname: 'Osseiran', firstname: 'Majd'},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Rhyner', firstname: 'Steve'},
         {lastname: 'Salami', firstname: 'Behzad'},
-        {lastname: 'Gomez-Luna', firstname: 'Juan'},
+        {lastname: 'Gómez-Luna', firstname: 'Juan'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: `Ataberk Olgun, Majd Osserian, <u>A. Giray Yaglikci</u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gomez-Luna, and Onur Mutlu,
+      citation: `Ataberk Olgun, Majd Osseiran, <u>A. Giray Yaglikci</u>, Yahya Can Tugrul, Haocong Luo, Steve Rhyner, Behzad Salami, Juan Gómez-Luna, and Onur Mutlu,
       <b>"An Experimental Analysis of RowHammer in HBM2 DRAM Chips"</b>
       Proceedings of the 53nd Annual IEEE/IFIP International Conference on Dependable Systems and Networks Disrupt Track (DSN Disrupt), Porto, Portugal, June 2023.`,
       keywords: ['rowhammer', 'read disturbance', 'hbm', 'dram', 'high bandwidth', 'attack'],
@@ -1441,15 +1441,15 @@ const other_publications = [
       authors: [
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Hassan', firstname: 'Hasan'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Tugrul', firstname: 'Yahya Can'},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Orosa', firstname: 'Lois'},
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Patel', firstname: 'Minesh'},
-        {lastname: 'Ergin', firstname: 'Oguz'},
+        {lastname: 'Ergin', firstname: 'Oğuz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],  
-      citation: `Ataberk Olgun, Hasan Hassan, <u>A Giray Yaglikci</u>, Yahya Can Tuğrul, Lois Orosa, Haocong Luo, Minesh Patel, Oguz Ergin, Onur Mutlu,
+      citation: `Ataberk Olgun, Hasan Hassan, <u>A Giray Yaglikci</u>, Yahya Can Tuğrul, Lois Orosa, Haocong Luo, Minesh Patel, Oğuz Ergin, Onur Mutlu,
       <b>"DRAM Bender: An Extensible and Versatile FPGA-based Infrastructure to Easily Test State-of-the-art DRAM Chips"</b>
       IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems, 2023.`,
       keywords: ['dram', 'testing', 'verification', 'infrastructure', 'retention', 'rowhammer', 'real chips'],
@@ -1476,16 +1476,16 @@ const other_publications = [
       bibtextype: 'inproceedings',
       label: 'bostanci2022drstrange',
       authors: [
-        {lastname: 'Bostanci', firstname: 'F. Nisa'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Orosa', firstname: 'Lois'},
-        {lastname: 'Yaglikci', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+        {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Kim', firstname: 'Jeremie S.'},
         {lastname: 'Hassan', firstname: 'Hasan'},
         {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],  
-      citation: `F. Nisa Bostanci, Ataberk Olgun, Lois Orosa, <u>A. Giray Yağlıkçı</u>, Jeremie S. Kim, Hasan Hassan, Oguz Ergin, and Onur Mutlu,
+      citation: `F. Nisa Bostanci, Ataberk Olgun, Lois Orosa, <u>A. Giray Yağlıkçı</u>, Jeremie S. Kim, Hasan Hassan, Oğuz Ergin, and Onur Mutlu,
 <b>"DR-STRaNGe: End-to-End System Design for DRAM-based True Random Number Generators"</b>
 Proceedings of the 28th International Symposium on High-Performance Computer Architecture (HPCA), Virtual, April 2022.`,
       keywords: ['end-to-end', 'random numbers', 'security', 'memory', 'dram', 'memory controller'],
@@ -1514,7 +1514,7 @@ Proceedings of the 28th International Symposium on High-Performance Computer Arc
       bibtextype: 'inproceedings',
       label: 'yahya2022darkgates',
       authors: [
-        {lastname: 'Haj Yahya', firstname: 'Jawad'},
+        {lastname: 'Haj-Yahya', firstname: 'Jawad'},
         {lastname: 'Kim', firstname: 'Jeremie S.'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Park', firstname: 'Jisung'},
@@ -1522,7 +1522,7 @@ Proceedings of the 28th International Symposium on High-Performance Computer Arc
         {lastname: 'Sazeides', firstname: 'Yanos'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: `Jawad Haj Yahya, Jeremie S. Kim, <u>A. Giray Yağlıkçı</u>, Jisung Park, Efraim Rotem, Yanos Sazeides, and Onur Mutlu,
+      citation: `Jawad Haj-Yahya, Jeremie S. Kim, <u>A. Giray Yağlıkçı</u>, Jisung Park, Efraim Rotem, Yanos Sazeides, and Onur Mutlu,
 <b>"DarkGates: A Hybrid Power-Gating Architecture to Mitigate the Performance Impact of Dark-Silicon in High Performance Processors"</b>
 Proceedings of the 28th International Symposium on High-Performance Computer Architecture (HPCA), Virtual, April 2022. `,
       keywords: ['power gating', 'package', 'power delivery', 'energy efficiency', 'hardware'],
@@ -1556,12 +1556,12 @@ Proceedings of the 28th International Symposium on High-Performance Computer Arc
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Kim', firstname: 'Jeremie S.'},
-        {lastname: 'Bostanci', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
+        {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
         {lastname: 'Vijaykumar', firstname: 'Nandita'},
-        {lastname: 'Ergin', firstname: 'Oguz', firstnamelatex: 'O\\u{g}uz'},
+        {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: `Ataberk Olgun, Minesh Patel, <u>A. Giray Yağlıkçı</u>, Haocong Luo, Jeremie S. Kim, F. Nisa Bostanci, Nandita Vijaykumar, Oguz Ergin, and Onur Mutlu,
+      citation: `Ataberk Olgun, Minesh Patel, <u>A. Giray Yağlıkçı</u>, Haocong Luo, Jeremie S. Kim, F. Nisa Bostancı, Nandita Vijaykumar, Oğuz Ergin, and Onur Mutlu,
 <b>"QUAC-TRNG: High-Throughput True Random Number Generation Using Quadruple Row Activation in Commodity DRAM Chips"</b>
 Proceedings of the 48th International Symposium on Computer Architecture (ISCA), Virtual, June 2021. `,
       keywords: ['random numbers', 'characterization', 'real chips', 'memory', 'dram'],
@@ -1598,16 +1598,16 @@ Proceedings of the 48th International Symposium on Computer Architecture (ISCA),
       bibtextype: 'inproceedings',
       label: 'yahya2021ichannels',
       authors: [
-        {lastname: 'Haj Yahya', firstname: 'Jawad'},
+        {lastname: 'Haj-Yahya', firstname: 'Jawad'},
         {lastname: 'Kim', firstname: 'Jeremie S.'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
         {lastname: 'Puddu', firstname: 'Ivan'},
         {lastname: 'Orosa', firstname: 'Lois'},
-        {lastname: 'Gomez Luna', firstname: 'Juan'},
+        {lastname: 'Gómez-Luna', firstname: 'Juan'},
         {lastname: 'Alser', firstname: 'Mohammed'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: `Jawad Haj-Yahya, Jeremie S. Kim, <u>A. Giray Yağlıkçı</u>, Ivan Puddu, Lois Orosa, Juan Gomez Luna, Mohammed Alser, and Onur Mutlu,
+      citation: `Jawad Haj-Yahya, Jeremie S. Kim, <u>A. Giray Yağlıkçı</u>, Ivan Puddu, Lois Orosa, Juan Gómez-Luna, Mohammed Alser, and Onur Mutlu,
       <b>"IChannels: Exploiting Current Management Mechanisms to Create Covert Channels in Modern Processors"</b>
       Proceedings of the 48th International Symposium on Computer Architecture (ISCA), Virtual, June 2021. `,
       keywords: ['security', 'covert channels', 'power delivery'],
@@ -2034,10 +2034,41 @@ venue_counts_array.forEach(([venue, count]) => {
   console.log(`${count}x: ${venue}`);
 });
 
+// Go through the authors of each publication and create a list of unique authors across all publications in the last five years 
+const currentYear = new Date().getFullYear();
+const fiveYearsAgo = currentYear - 5;
+
+const uniqueAuthorsLastFiveYears = new Set();
+
+uniqueAuthorsLastFiveYears.add("Onur Mutlu"); // Ensure Onur Mutlu is included
+uniqueAuthorsLastFiveYears.add("Oğuz Ergin"); // Ensure Oğuz Ergin is included
+uniqueAuthorsLastFiveYears.add("Saugata Ghose"); // Ensure Saugata Ghose is included
+
+publications.forEach(pub => {
+  if (pub.year >= fiveYearsAgo) {
+    pub.authors.forEach(author => {
+      const fullName = `${author.firstname} ${author.lastname}`;
+      uniqueAuthorsLastFiveYears.add(fullName);
+    });
+  }
+});
+uniqueAuthorsLastFiveYears.delete("A. Giray Yağlıkçı"); // Remove self
+
+
+const uniqueAuthorsArray = Array.from(uniqueAuthorsLastFiveYears).sort();
+
+console.log(`\nUnique authors in publications from ${fiveYearsAgo}-${currentYear}:`);
+console.log(`Total: ${uniqueAuthorsArray.length} authors`);
+uniqueAuthorsArray.forEach(author => {
+  console.log(`  - ${author}`);
+});
+
+
 module.exports = {
   publications,
   theses,
   selected_publications,
   other_publications,
-  venue_counts: venue_counts_array
+  venue_counts: venue_counts_array,
+  unique_authors_last_five_years: uniqueAuthorsArray
 };

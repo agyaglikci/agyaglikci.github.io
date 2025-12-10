@@ -154,10 +154,9 @@
     <div class="border-bottom border-2 border-print-0 border-dark ">
         {{> other_publications }}
     </div>
-   
 
-    <div class="border-bottom border-1 border-print-0 border-dark">
-        <h2 id="hof">Hall of Fame Stats:</h2>
+    <div >
+        <h2 id="hof">Publication Venues:</h2>
         {{#each venue_counts}}
         <span class="badge text-body border border-2" style="white-space: normal; display: inline-block;">
             <a href="https://dblp.org/search/publ?q=author:Abdullah%20Giray%20Yaglikçi:%20{{ this.[0] }}">
@@ -166,6 +165,18 @@
         </span>
         {{/each}}
     </div> 
+
+    <div class="border-bottom border-1 border-print-0 border-dark">
+        <h2 id="collaborators">Collaborations in the Last Five Years</h2>
+        {{#each unique_authors_last_five_years}}
+        <span class="badge text-body border border-2" style="white-space: normal; display: inline-block;">
+            <a href="https://dblp.org/search/publ?q=author:Abdullah%20Giray%20Yaglikçi:%20{{ this }}">
+                {{ this }} <i class="fa-solid fa-square-up-right"></i>
+            </a> 
+        </span>
+        {{/each}}
+    </div>
+
     <p>
         <time datetime="{{ buildinfo.date }}" class="small">Last update: {{ updated }}</time>
     </p>

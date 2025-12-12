@@ -2054,13 +2054,30 @@ publications.forEach(pub => {
 });
 uniqueAuthorsLastFiveYears.delete("A. Giray Yağlıkçı"); // Remove self
 
+// Convert Set to object with counts
+const authorCounts = {};
+publications.forEach(pub => {
+  if (pub.year >= fiveYearsAgo) {
+    pub.authors.forEach(author => {
+      const fullName = `${author.firstname} ${author.lastname}`;
+      if (uniqueAuthorsLastFiveYears.has(fullName)) {
+        authorCounts[fullName] = (authorCounts[fullName] || 0) + 1;
+      }
+    });
+  }
+});
 
-const uniqueAuthorsArray = Array.from(uniqueAuthorsLastFiveYears).sort();
+// Convert to sorted array by count (descending) then alphabetically
+const uniqueAuthorsArray = Object.entries(authorCounts)
+  .sort((a, b) => {
+    if (b[1] !== a[1]) return b[1] - a[1]; // Sort by count descending
+    return a[0].localeCompare(b[0]); // Then alphabetically
+  });
 
 console.log(`\nUnique authors in publications from ${fiveYearsAgo}-${currentYear}:`);
 console.log(`Total: ${uniqueAuthorsArray.length} authors`);
-uniqueAuthorsArray.forEach(author => {
-  console.log(`  - ${author}`);
+uniqueAuthorsArray.forEach(([author, count]) => {
+  console.log(`  ${count}x - ${author}`);
 });
 
 

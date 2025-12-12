@@ -1,5 +1,5 @@
 <h2>Other Publications</h2>
-<ol class="publication-list">
+<ul class="publication-list">
     {{#each other_publications}}
     {{#if (or (eq this.type "conference") (eq this.type "journal"))}}
     <li class="publication-item">
@@ -25,10 +25,10 @@
     </li>
     {{/if}}
     {{/each}}
-</ol>
+</ul>
 
 <h2>Technical Reports</h2>
-<ol class="publication-list">
+<ul class="publication-list">
     {{#each other_publications}}
     {{#if (eq this.type "techreport")}}
     <li class="publication-item">
@@ -54,4 +54,4 @@
     </li>
     {{/if}}
     {{/each}}
-</ol>
+</ul>

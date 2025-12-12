@@ -24,4 +24,16 @@
             </div>
             {{/each}}
         </div>
+
+        
+        <div class="border-bottom border-1 border-print-0 border-dark">
+        <h2 class="mt-5">Recent Collaborators</h2>
+        {{#each unique_authors_last_five_years}}
+        <span class="badge text-body border border-2" style="white-space: normal; display: inline-block;">
+            <a href="https://dblp.org/search/publ?q=author:Abdullah%20Giray%20Yaglikçi:{{ this.[0] }}">
+                {{ this.[0] }} <i class="fa-solid fa-square-up-right"></i>
+            </a> 
+        </span>
+        {{/each}}
+        </div>
     </div>

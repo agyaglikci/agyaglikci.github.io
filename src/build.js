@@ -29,7 +29,10 @@ const PARTIAL_METADATA_MAPPING = {
   'selected_publications': 'publications',
   'other_publications': 'publications',
   'theses': 'publications',
-  'team': 's4l'
+  'team': 's4l',
+  'recent_collaborators': 'publications',
+  'research_topics': 'research_topics',
+  'research_vision': 'research_topics'
 };
 
 // ============================================================================

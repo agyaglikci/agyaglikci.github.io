@@ -15,11 +15,12 @@
 .venue{
     color: #777777;
     font-size: 0.9rem;
+    font-style: italic;
 }
 .title{
     color: #000000;
     font-weight: 600;
-    font-style: italic;
+    
 }
 
 .summary{

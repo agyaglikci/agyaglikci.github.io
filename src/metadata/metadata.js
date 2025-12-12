@@ -103,7 +103,7 @@ module.exports = {
       contents: ``
     },
     {
-      period: 'Oct 2025 - ',
+      period: 'Oct 2024 - Sep 2025',
       title: 'Postdoctoral Researcher and Lecturer',
       organization: 'ETH Zürich',
       skills: ['tragedy', 'death', 'love'],

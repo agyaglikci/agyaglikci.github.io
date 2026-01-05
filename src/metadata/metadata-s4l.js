@@ -32,7 +32,7 @@ module.exports = {
     {
       name: 'Namhun Kim', 
       role: 'Researcher', 
-      photo: 'https://media.licdn.com/dms/image/v2/D5603AQF4L8ukJ_MyrQ/profile-displayphoto-shrink_800_800/B56Zap9oMiGoAc-/0/1746608227537?e=1766620800&v=beta&t=Kp-hWXpywsPshQA3BwBtUi4LseHY09szbfxroiYlw78',
+      photo: 'https://csarch.korea.ac.kr/authors/namhun-kim/avatar_hudf270927ffcc3478a03f6a0cc4081e3f_58755_270x270_fill_q75_lanczos_center.jpg',
       web: 'https://www.linkedin.com/in/namhun-kim-b03035317/',
     },
     {

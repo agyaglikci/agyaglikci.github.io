@@ -2040,6 +2040,13 @@ venue_counts_array.forEach(([venue, count]) => {
   console.log(`${count}x: ${venue}`);
 });
 
+// Drop the venue_counts_array entry if count is zero
+for (let i = venue_counts_array.length - 1; i >= 0; i--) {
+  if (venue_counts_array[i][1] === 0) {
+    venue_counts_array.splice(i, 1);
+  }
+}
+
 // Go through the authors of each publication and create a list of unique authors across all publications in the last five years 
 const currentYear = new Date().getFullYear();
 const fiveYearsAgo = currentYear - 5;

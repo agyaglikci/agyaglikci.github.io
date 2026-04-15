@@ -119,6 +119,9 @@ const selected_publications = [
         text:'Slides',
         urls: [{type: 'pptx', url:'https://people.inf.ethz.ch/omutlu/pub/columndisturb_micro25_talk.pptx'}, {type: 'pdf', url:'https://people.inf.ethz.ch/omutlu/pub/columndisturb_micro25_talk.pdf'}]
       }
+    ],
+    awards: [
+      {name: "One of the 12 computer architecture papers of 2025 selected as Top Picks by IEEE Micro."},
     ] 
   },
   {

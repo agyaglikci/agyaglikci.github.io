@@ -24,16 +24,22 @@ module.exports = {
       web: 'https://agyaglikci.github.io',
     },
     {
+      name: 'Namhun Kim', 
+      role: 'Researcher', 
+      photo: 'https://cispa.de/person-images/c01naki.jpg',
+      web: 'https://cispa.de/de/people/c01naki',
+    },
+    {
       name: 'Sooraj Suresh Beeja', 
       role: 'Student Assistant', 
       photo: 'https://cispa.de/person-images/c01sosu.jpg',
       web: 'https://cispa.de/en/people/c01sosu',
     },
     {
-      name: 'Namhun Kim', 
-      role: 'Researcher', 
-      photo: 'https://csarch.korea.ac.kr/authors/namhun-kim/avatar_hudf270927ffcc3478a03f6a0cc4081e3f_58755_270x270_fill_q75_lanczos_center.jpg',
-      web: 'https://www.linkedin.com/in/namhun-kim-b03035317/',
+      name: 'Zeynep Hüma Karapınar', 
+      role: 'Research Intern', 
+      photo: 'https://media.licdn.com/dms/image/v2/D4D03AQFwKZrC4a_vVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728676398049?e=1778112000&v=beta&t=7WX4TAkV4TBaSDUlk5JAJt33hcsWnjtt-b--bwndurY',
+      web: 'https://www.linkedin.com/in/zeynep-hüma-karapınar/',
     },
     {
       name: 'Sena Filiz', 
@@ -46,6 +52,12 @@ module.exports = {
       role: 'Affiliated Researcher', 
       photo: 'https://www.kasirga.net/wp-content/uploads/2024/05/betulaydeger-e1715331953304-768x768.jpg',
       web: 'https://www.linkedin.com/in/betül-aydeğer-262793298/',
+    },
+    {
+      name: 'Amina Sokoli', 
+      role: 'Affiliated Researcher', 
+      photo: 'https://media.licdn.com/dms/image/v2/D4D03AQEW-jHCxe4Ikw/profile-displayphoto-shrink_800_800/B4DZVctzWBHwAc-/0/1741017267204?e=1778112000&v=beta&t=rwKInrgTzvB7cB2VLgOfzcbync2kgSSisFB9Q3k-2vg',
+      web: 'https://www.linkedin.com/in/amina-sokoli-a34554247/',
     },
   ],
   research_areas: [

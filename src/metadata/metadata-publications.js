@@ -49,15 +49,15 @@ const theses = [
 
 
 const selected_publications = [
-  // Ismail Emir Yuksel, Ataberk Olgun, Nisa Bostancı, Oğuzhan Canpolat, Geraldo Francisco de Oliveira Junior, Mohammad Sadrosadati, A. Giray Yağlıkçı, and Onur Mutlu,
+  // İsmail Emir Yuksel, Ataberk Olgun, Nisa Bostancı, Oğuzhan Canpolat, Geraldo Francisco de Oliveira Junior, Mohammad Sadrosadati, A. Giray Yağlıkçı, and Onur Mutlu,
 // "In-DRAM True Random Number Generation Using Simultaneous Multiple-Row Activation: An Experimental Study of Real DRAM Chips"
 // Proceedings of the 43rd IEEE International Conference on Computer Design (ICCD), Dallas, TX, USA, November 2025.
 // [Slides (pptx) (pdf)]
-// Ismail Emir Yuksel, Ataberk Olgun, Nisa Bostanci, Haocong Luo, A. Giray Yaglikci, and Onur Mutlu,
+// İsmail Emir Yuksel, Ataberk Olgun, Nisa Bostanci, Haocong Luo, A. Giray Yaglikci, and Onur Mutlu,
 // "ColumnDisturb: Understanding Column-based Read Disturbance in Real DRAM Chips and Implications for Future Systems"
 // Proceedings of the 58th International Symposium on Microarchitecture (MICRO), Seoul, South Korea, October 2025.
 // [Slides (pptx) (pdf)]
-// Nisa Bostanci, Oğuzhan Canpolat, Ataberk Olgun, Ismail Emir Yuksel, Konstantinos Kanellopoulos, Mohammad Sadrosadati, A. Giray Yaglikci, and Onur Mutlu,
+// Nisa Bostanci, Oğuzhan Canpolat, Ataberk Olgun, İsmail Emir Yuksel, Konstantinos Kanellopoulos, Mohammad Sadrosadati, A. Giray Yaglikci, and Onur Mutlu,
 // "Understanding and Mitigating Covert Channel and Side Channel Vulnerabilities Introduced by RowHammer Defenses"
 // Proceedings of the 58th International Symposium on Microarchitecture (MICRO), Seoul, South Korea, October 2025.
 // [Slides (pptx) (pdf)]
@@ -173,12 +173,12 @@ const selected_publications = [
         {lastname: 'Oliveira', firstname: 'Geraldo F.'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
-        {lastname: 'Yüksel', firstname: 'Ismail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
+        {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Luo', firstname: 'Haocong'},
         {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: "Oğuzhan Canpolat, <u>A. Giray Yağlıkçı</u>, Geraldo Francisco de Oliveira, Ataberk Olgun, Nisa Bostanci, Ismail Emir Yuksel, Haocong Luo, Oğuz Ergin, and Onur Mutlu, <b>\"Chronus: Understanding and Securing the Cutting-Edge Industry Solutions to DRAM Read Disturbance,\"</b> in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
+      citation: "Oğuzhan Canpolat, <u>A. Giray Yağlıkçı</u>, Geraldo Francisco de Oliveira, Ataberk Olgun, Nisa Bostanci, İsmail Emir Yuksel, Haocong Luo, Oğuz Ergin, and Onur Mutlu, <b>\"Chronus: Understanding and Securing the Cutting-Edge Industry Solutions to DRAM Read Disturbance,\"</b> in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
       keywords: ['rowhammer', 'defense', 'prac', 'memory', 'dram', 'memory controller', 'hardware'],
       awards: [
         {name: "Officially artifact evaluated as available, functional, and reproduced."},
@@ -228,7 +228,7 @@ const selected_publications = [
       authors: [
         {lastname: 'Tuğrul', firstname: 'Yahya Can', lastnamelatex: 'Tu\\u{g}rul'},
         {lastname: 'Yağlıkçı', firstname: 'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
-        {lastname: 'Yüksel', firstname: 'Ismail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
+        {lastname: 'Yüksel', firstname: 'İsmail Emir', lastnamelatex: 'Y{\\"{u}}ksel', firstnamelatex: '{\\I}smail Emir'},
         {lastname: 'Olgun', firstname: 'Ataberk'},
         {lastname: 'Canpolat', firstname: 'Oğuzhan', firstnamelatex: 'O\\u{g}uzhan'},
         {lastname: 'Bostancı', firstname: 'F. Nisa', lastnamelatex: 'Bostanc{\\i}'},
@@ -236,7 +236,7 @@ const selected_publications = [
         {lastname: 'Ergin', firstname: 'Oğuz', firstnamelatex: 'O\\u{g}uz'},
         {lastname: 'Mutlu', firstname: 'Onur'}
       ],
-      citation: "Yahya Can Tugrul, <u>A. Giray Yağlıkçı</u>, Ismail Emir Yuksel, Ataberk Olgun, Oğuzhan Canpolat, Nisa Bostanci, Mohammad Sadrosadati, Oğuz Ergin, and Onur Mutlu, \"Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions\" in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
+      citation: "Yahya Can Tugrul, <u>A. Giray Yağlıkçı</u>, İsmail Emir Yuksel, Ataberk Olgun, Oğuzhan Canpolat, Nisa Bostanci, Mohammad Sadrosadati, Oğuz Ergin, and Onur Mutlu, \"Understanding RowHammer Under Reduced Refresh Latency: Experimental Analysis of Real DRAM Chips and Implications on Future Solutions\" in Proceedings of the 31st International Symposium on High-Performance Computer Architecture (HPCA), Las Vegas, NV, USA, March 2025.",
       keywords: ['rowhammer', 'characterization', 'charge restoration', 'memory', 'dram', 'hardware'],
       awards: [
         {name: "Officially artifact evaluated as available, functional, and reproduced."},
@@ -677,7 +677,33 @@ const selected_publications = [
 ]
 
 const other_publications = [
-    { title: "Memory Band-Aid: A Principled RowHammer Defense-in-Depth",
+  { 
+    title: "Cleaning up the Mess: Re-evaluating the Real-System Modeling Accuracy of Ramulator 2.0",
+    venue: "IEEE International Symposium on Performance Analysis of System and Software (ISPASS), Seoul, South Korea",
+    year: 2026,
+    type: "conference",
+    bibtextype: 'inproceedings',
+    label: 'bostanci2026cleaning',
+    // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, Abdullah Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
+    authors: [
+      {lastname: 'Bostanci', firstname:'Nisa '},
+      {lastname: 'Luo', firstname:'Haocong '},
+      {lastname: 'Olgun', firstname:'Ataberk '},
+      {lastname: 'Makeenkova', firstname:'Maria '},
+      {lastname: 'de Oliveira', firstname:'Geraldo Francisco'},
+      {lastname: 'Yaglikci', firstname:'Abdullah Giray '},
+      {lastname: 'Mutlu', firstname:'Onur '}
+    ],
+    sources:[
+      {
+        text:'Preprint',
+        urls: [
+          {type: 'pdf', url:'https://arxiv.org/pdf/2510.15744.pdf'},
+        ]
+      }
+    ]
+  },  
+  { title: "Memory Band-Aid: A Principled RowHammer Defense-in-Depth",
       venue: "Network and Distributed System Security Symposium (NDSS), San Diego, CA, USA",
       year: 2026,
       type: "conference",

@@ -272,7 +272,7 @@ module.exports = {
     {
       year: "2026",
       roles: [
-        {role: "Program Committee Member", venues: "HPCA, DSN, and ISCA"},
+        {role: "Program Committee Member", venues: "HPCA, DSN, ISCA, ISMM, and MICRO"},
       ],
     },
     {

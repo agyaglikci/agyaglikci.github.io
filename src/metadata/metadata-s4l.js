@@ -38,7 +38,7 @@ module.exports = {
     {
       name: 'Zeynep Hüma Karapınar', 
       role: 'Research Intern', 
-      photo: 'https://media.licdn.com/dms/image/v2/D4D03AQFwKZrC4a_vVA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728676398049?e=1781740800&v=beta&t=qL4C-QPEVvkcrDupfitE9CVKVg3NU5gqkQFsChVwJX4',
+      photo: 'https://cispa.de/person-images/c01zeka.jpg',
       web: 'https://www.linkedin.com/in/zeynep-hüma-karapınar/',
     },
     {
@@ -56,7 +56,7 @@ module.exports = {
     {
       name: 'Amina Sokoli', 
       role: 'Affiliated Researcher', 
-      photo: 'https://media.licdn.com/dms/image/v2/D4D03AQEW-jHCxe4Ikw/profile-displayphoto-shrink_800_800/B4DZVctzWBHwAc-/0/1741017267204?e=1781740800&v=beta&t=jwPuxVid9Xm8otnfROaw_iulM4TKhr7CZW5fCWN7d1c',
+      photo: 'https://media.licdn.com/dms/image/v2/D4D03AQEW-jHCxe4Ikw/profile-displayphoto-shrink_800_800/B4DZVctzWBHwAc-/0/1741017267204?e=1785369600&v=beta&t=LKpOqRw69dTZdIF5_dAZ1SztdPjahgvnV7smv5O1fVg',
       web: 'https://www.linkedin.com/in/amina-sokoli-a34554247/',
     },
   ],

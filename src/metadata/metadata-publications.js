@@ -64,6 +64,34 @@ const selected_publications = [
 // [LeakyHammer Source Code]
 // Officially artifact evaluated as available, functional, and reproduced.
   {
+    title = "ColumnKeeper: Efficient Solutions to the ColumnDisturb Vulnerability in DRAM-based Systems",
+    venue = "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
+    year = 2026,
+    type = "conference",
+    bibtextype = 'inproceedings',
+    label = 'kakolyris2026columnkeeper',
+    authors: [
+      {lastname: 'Kakolyris', firstname:'Andreas Kosmas'},
+      {lastname: 'Bostanci', firstname:'Nisa'},
+      {lastname: 'Olgun', firstname:'Ataberk'},
+      {lastname: 'Yüksel', firstname:'Ismail Emir'},
+      {lastname: 'Songara', firstname:'Harsh'},
+      {lastname: 'Sgouras', firstname:'Konstantinos Marios'},
+      {lastname: 'Baser', firstname:'Umut'},
+      {lastname: 'Kanellopoulos', firstname:'Konstantinos'},
+      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Mutlu', firstname:'Onur'}
+    ],
+    sources:[
+      {
+        text:'Preprint',
+        urls: [
+          {type: 'pdf', url:'https://arxiv.org/pdf/2606.22632'},
+        ]
+      }
+    ]
+  },
+  {
     title: "In-DRAM True Random Number Generation Using Simultaneous Multiple-Row Activation: An Experimental Study of Real DRAM Chips",
     venue: "43rd IEEE International Conference on Computer Design (ICCD), Dallas, TX, USA",
     type: "conference",
@@ -677,6 +705,87 @@ const selected_publications = [
 ]
 
 const other_publications = [
+  {
+    title = "PuDGhost: Experimental Analysis of Computation Result Corruption in Processing-using-DRAM Operations on Real DRAM Chips and Implications for Future Systems",
+    venue = "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
+    year = 2026,
+    type = "conference",
+    bibtextype = 'inproceedings',
+    label = 'tokuda2026pudghost',
+    authors: [
+      {lastname: 'Tokuda', firstname:'Daichi'},
+      {lastname: 'Yüksel', firstname:'Ismail Emir'},
+      {lastname: 'Kubo', firstname:'Tatsuya'},
+      {lastname: 'Olgun', firstname:'Ataberk'},
+      {lastname: 'Luo', firstname:'Haocong'},
+      {lastname: 'Bostanci', firstname:'Nisa'},
+      {lastname: 'Wang', firstname:'Jikun'},
+      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Takamaeda-Yamazaki', firstname:'Shinya'},
+      {lastname: 'Mutlu', firstname:'Onur'}
+    ],
+    sources:[
+      {
+        text:'Preprint',
+        urls: [
+          {type: 'pdf', url:'https://doi.org/10.60882/cispa.32781576'},
+        ]
+      }
+    ]
+  },
+  {
+    title = "DeJaVu: Why You Should Write to Your DRAM Rows Twice, Carefully",
+    venue = "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
+    year = 2026,
+    type = "conference",
+    bibtextype = 'inproceedings',
+    label = 'luo2026dejavu',
+    authors: [
+      {lastname: 'Luo', firstname:'Haocong'},
+      {lastname: 'Yüksel', firstname:'Ismail Emir'},
+      {lastname: 'Olgun', firstname:'Ataberk'},
+      {lastname: 'Bostanci', firstname:'Nisa'},
+      {lastname: 'Ecemis', firstname:'Orhun'},
+      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Mutlu', firstname:'Onur'}
+    ],
+    sources:[
+      {
+        text:'Preprint',
+        urls: [
+          {type: 'pdf', url:'https://doi.org/10.60882/cispa.32782785'},
+        ]
+      }
+    ]
+  },
+  { 
+    title: "ScaleDisturb: Exploiting Temporal Asymmetry to Amplify Read Disturbance in Modern DRAM Chips",
+    venue: "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), Charlotte, North Carolina, USA",
+    year: 2026,
+    type: "conference",
+    bibtextype: 'inproceedings',
+    label: 'wang2026scaledisturb',
+    // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, Abdullah Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
+    authors: [
+      {lastname: 'Wang', firstname:'Jikun'},
+      {lastname: 'Luo', firstname:'Haocong'},
+      {lastname: 'Olgun', firstname:'Ataberk'},
+      {lastname: 'Yüksel', firstname:'Ismail Emir'},
+      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Liang', firstname:'Yu'},
+      {lastname: 'Bostanci', firstname:'Nisa'},
+      {lastname: 'Sadrosadati', firstname:'Mohammad'},
+      {lastname: 'Mutlu', firstname:'Onur'}
+    ],
+    sources:[
+      {
+        text:'Full Paper',
+        urls: [
+          {type: 'pdf', url:'https://arxiv.org/pdf/2606.07761v1'},
+        ]
+      }
+    ]
+  },  
   { 
     title: "Cleaning up the Mess: Re-evaluating the Real-System Modeling Accuracy of Ramulator 2.0",
     venue: "IEEE International Symposium on Performance Analysis of System and Software (ISPASS), Seoul, South Korea",
@@ -691,8 +800,8 @@ const other_publications = [
       {lastname: 'Olgun', firstname:'Ataberk '},
       {lastname: 'Makeenkova', firstname:'Maria '},
       {lastname: 'de Oliveira', firstname:'Geraldo Francisco'},
-      {lastname: 'Yaglikci', firstname:'Abdullah Giray '},
-      {lastname: 'Mutlu', firstname:'Onur '}
+      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Mutlu', firstname:'Onur'}
     ],
     sources:[
       {

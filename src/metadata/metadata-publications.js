@@ -64,12 +64,12 @@ const selected_publications = [
 // [LeakyHammer Source Code]
 // Officially artifact evaluated as available, functional, and reproduced.
   {
-    title = "ColumnKeeper: Efficient Solutions to the ColumnDisturb Vulnerability in DRAM-based Systems",
-    venue = "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
-    year = 2026,
-    type = "conference",
-    bibtextype = 'inproceedings',
-    label = 'kakolyris2026columnkeeper',
+    title: "ColumnKeeper: Efficient Solutions to the ColumnDisturb Vulnerability in DRAM-based Systems",
+    venue: "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
+    year: 2026,
+    type: "conference",
+    bibtextype: 'inproceedings',
+    label: 'kakolyris2026columnkeeper',
     authors: [
       {lastname: 'Kakolyris', firstname:'Andreas Kosmas'},
       {lastname: 'Bostanci', firstname:'Nisa'},
@@ -706,12 +706,41 @@ const selected_publications = [
 
 const other_publications = [
   {
-    title = "PuDGhost: Experimental Analysis of Computation Result Corruption in Processing-using-DRAM Operations on Real DRAM Chips and Implications for Future Systems",
-    venue = "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
-    year = 2026,
-    type = "conference",
-    bibtextype = 'inproceedings',
-    label = 'tokuda2026pudghost',
+    title: "Clutch: High Performance Vector-Scalar Comparison using DRAM via Chunked Temporal Coding",
+    venue: "40th ACM International Conference on Supercomputing (ICS), Belfast, Northern Ireland (United Kingdom)",
+    year: 2026,
+    type: "conference",
+    bibtextype: 'inproceedings',
+    label: 'tokuda2026clutch',
+    authors: [
+      {lastname: 'Tokuda', firstname:'Daichi'},
+      {lastname: 'Kubo', firstname:'Tatsuya'},
+      {lastname: 'Yüksel', firstname:'Ismail Emir'},
+      {lastname: 'Olgun', firstname:'Ataberk'},
+      {lastname: 'Luo', firstname:'Haocong'},
+      {lastname: 'Nagatani', firstname:'Tomoya'},
+      {lastname: 'Oliveira', firstname:'Geraldo Francisco de'},
+      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Sadrosadati', firstname:'Mohammad'},
+      {lastname: 'Mutlu', firstname:'Onur'},
+      {lastname: 'Takamaeda-Yamazaki', firstname:'Shinya'}
+    ],
+    sources:[
+      {
+        text:'Preprint',
+        urls: [
+          {type: 'pdf', url:'https://doi.org/10.60882/cispa.32935067'},
+        ]
+      }
+    ]
+  },
+  {
+    title: "PuDGhost: Experimental Analysis of Computation Result Corruption in Processing-using-DRAM Operations on Real DRAM Chips and Implications for Future Systems",
+    venue: "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
+    year: 2026,
+    type: "conference",
+    bibtextype: 'inproceedings',
+    label: 'tokuda2026pudghost',
     authors: [
       {lastname: 'Tokuda', firstname:'Daichi'},
       {lastname: 'Yüksel', firstname:'Ismail Emir'},
@@ -734,12 +763,12 @@ const other_publications = [
     ]
   },
   {
-    title = "DeJaVu: Why You Should Write to Your DRAM Rows Twice, Carefully",
-    venue = "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
-    year = 2026,
-    type = "conference",
-    bibtextype = 'inproceedings',
-    label = 'luo2026dejavu',
+    title: "DeJaVu: Why You Should Write to Your DRAM Rows Twice, Carefully",
+    venue: "ACM International Symposium on Computer Architecture (ISCA), Raleigh, North Carolina, USA",
+    year: 2026,
+    type: "conference",
+    bibtextype: 'inproceedings',
+    label: 'luo2026dejavu',
     authors: [
       {lastname: 'Luo', firstname:'Haocong'},
       {lastname: 'Yüksel', firstname:'Ismail Emir'},

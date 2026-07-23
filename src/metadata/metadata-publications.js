@@ -92,8 +92,8 @@ const selected_publications = [
       {
         text:'Slides',
         urls: [
-          {type: 'pptx', url:'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/andreas-columnkeeper-micro26.pptx'},
-          {type: 'pdf',  url:'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/andreas-columnkeeper-micro26.pdf'}
+          {type: 'pptx', url:'https://raw.githubusercontent.com/agyaglikci/agyaglikci.github.io/refs/heads/main/talks/andreas-columnkeeper-isca26.pptx'},
+          {type: 'pdf', url:'https://raw.githubusercontent.com/agyaglikci/agyaglikci.github.io/refs/heads/main/talks/andreas-columnkeeper-isca26.pdf'}
         ]
       }
     ]

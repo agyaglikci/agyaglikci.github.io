@@ -88,6 +88,13 @@ const selected_publications = [
         urls: [
           {type: 'pdf', url:'https://arxiv.org/pdf/2606.22632'},
         ]
+      },
+      {
+        text:'Slides',
+        urls: [
+          {type: 'pptx', url:'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/andreas-columnkeeper-micro26.pptx'},
+          {type: 'pdf',  url:'https://github.com/agyaglikci/agyaglikci.github.io/raw/main/talks/andreas-columnkeeper-micro26.pdf'}
+        ]
       }
     ]
   },

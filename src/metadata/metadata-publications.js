@@ -79,7 +79,7 @@ const selected_publications = [
       {lastname: 'Sgouras', firstname:'Konstantinos Marios'},
       {lastname: 'Baser', firstname:'Umut'},
       {lastname: 'Kanellopoulos', firstname:'Konstantinos'},
-      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Yağlıkçı', firstname:'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Mutlu', firstname:'Onur'}
     ],
     sources:[
@@ -727,7 +727,7 @@ const other_publications = [
       {lastname: 'Luo', firstname:'Haocong'},
       {lastname: 'Nagatani', firstname:'Tomoya'},
       {lastname: 'Oliveira', firstname:'Geraldo Francisco de'},
-      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Yağlıkçı', firstname:'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Sadrosadati', firstname:'Mohammad'},
       {lastname: 'Mutlu', firstname:'Onur'},
       {lastname: 'Takamaeda-Yamazaki', firstname:'Shinya'}
@@ -756,7 +756,7 @@ const other_publications = [
       {lastname: 'Luo', firstname:'Haocong'},
       {lastname: 'Bostanci', firstname:'Nisa'},
       {lastname: 'Wang', firstname:'Jikun'},
-      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Yağlıkçı', firstname:'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Takamaeda-Yamazaki', firstname:'Shinya'},
       {lastname: 'Mutlu', firstname:'Onur'}
     ],
@@ -782,7 +782,7 @@ const other_publications = [
       {lastname: 'Olgun', firstname:'Ataberk'},
       {lastname: 'Bostanci', firstname:'Nisa'},
       {lastname: 'Ecemis', firstname:'Orhun'},
-      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Yağlıkçı', firstname:'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Mutlu', firstname:'Onur'}
     ],
     sources:[
@@ -801,13 +801,13 @@ const other_publications = [
     type: "conference",
     bibtextype: 'inproceedings',
     label: 'wang2026scaledisturb',
-    // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, Abdullah Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
+    // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, A. Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
     authors: [
       {lastname: 'Wang', firstname:'Jikun'},
       {lastname: 'Luo', firstname:'Haocong'},
       {lastname: 'Olgun', firstname:'Ataberk'},
       {lastname: 'Yüksel', firstname:'Ismail Emir'},
-      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Yağlıkçı', firstname:'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Liang', firstname:'Yu'},
       {lastname: 'Bostanci', firstname:'Nisa'},
       {lastname: 'Sadrosadati', firstname:'Mohammad'},
@@ -829,14 +829,14 @@ const other_publications = [
     type: "conference",
     bibtextype: 'inproceedings',
     label: 'bostanci2026cleaning',
-    // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, Abdullah Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
+    // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, A. Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
     authors: [
       {lastname: 'Bostanci', firstname:'Nisa '},
       {lastname: 'Luo', firstname:'Haocong '},
       {lastname: 'Olgun', firstname:'Ataberk '},
       {lastname: 'Makeenkova', firstname:'Maria '},
       {lastname: 'de Oliveira', firstname:'Geraldo Francisco'},
-      {lastname: 'Yağlıkçı', firstname:'Abdullah Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
+      {lastname: 'Yağlıkçı', firstname:'A. Giray', lastnamelatex: 'Ya\\u{g}l{\\i}k\\c{c}{\\i}', underline: true},
       {lastname: 'Mutlu', firstname:'Onur'}
     ],
     sources:[
@@ -854,7 +854,7 @@ const other_publications = [
       type: "conference",
       bibtextype: 'inproceedings',
       label: 'fiedler2026memory',
-      // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, Abdullah Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
+      // Carina Fiedler, Jonas Juffinger, Sudheendra Raghav Neela, Martin Heckel, Hannes Weissteiner, A. Giray Yaglıkçı, Florian Adamsky, Daniel Gruss
       authors: [
         {lastname: 'Fiedler', firstname: 'Carina'},
         {lastname: 'Juffinger', firstname: 'Jonas'},
